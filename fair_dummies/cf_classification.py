@@ -9,14 +9,19 @@
 import os
 import sys
 
+# print (os.getcwd() + '/others' )
+sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others')))
+# sys.path.insert(1, os.path.join(os.getcwd() + '/others/'))
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others/third_party/fairness_aware_learning')))
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others/third_party/cqr')))
 
 base_path = os.getcwd() + '/data/'
 
+for p in sys.path: print(p)
+
 import torch
 import random
-import get_dataset
+# import get_dataset
 import numpy as np
 import pandas as pd
 from others import adv_debiasing
