@@ -21,7 +21,7 @@ for p in sys.path: print(p)
 
 import torch
 import random
-# import get_dataset
+import get_dataset
 import numpy as np
 import pandas as pd
 from fair_dummies import utility_functions
@@ -34,14 +34,15 @@ from others import continuous_fairness
 from cqr.torch_models import AllQuantileLoss
 from cqr.helper import compute_coverage_per_sample, compute_coverage_len
 
-from nonconformist.nc import RegressorNc
-from nonconformist.cp import IcpRegressor
-from nonconformist.nc import AbsErrorErrFunc
-from nonconformist.nc import QuantileRegErrFunc
-from nonconformist.base import RegressorAdapter
+from others.third_party.cqr.nonconformist.cp import IcpRegressor
+from others.third_party.cqr.nonconformist.nc import RegressorNc
+from others.third_party.cqr.nonconformist.nc import AbsErrorErrFunc
+from others.third_party.cqr.nonconformist.nc import QuantileRegErrFunc
+from others.third_party.cqr.nonconformist.base import RegressorAdapter
 
 
-pd.set_option('precision', 4)
+# pd.set_option('precision', 4)
+pd.options.display.max_rows = 4
 
 
 def run_experiment(cur_test_method,

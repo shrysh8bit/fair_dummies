@@ -10,20 +10,24 @@ import os
 import sys
 
 # print (os.getcwd() + '/others' )
+# print (os.getcwd())
+
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others')))
 # sys.path.insert(1, os.path.join(os.getcwd() + '/others/'))
+# sys.path.insert(1, '/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/others')
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others/third_party/fairness_aware_learning')))
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others/third_party/cqr')))
 
 base_path = os.getcwd() + '/data/'
 
 for p in sys.path: print(p)
-
+# print(os.getcwd())
 import torch
 import random
-# import get_dataset
+import get_dataset
 import numpy as np
 import pandas as pd
+#import others
 from others import adv_debiasing
 from others import continuous_fairness
 from fair_dummies import utility_functions
@@ -35,7 +39,8 @@ from nonconformist.base import ClassifierAdapter
 from nonconformist.nc import InverseProbabilityErrFunc
 
 
-pd.set_option('precision', 4)
+# pd.set_option('precision', 4)
+pd.options.display.max_rows = 4
 
 # Get length
 def get_length(Y,predicted_C):

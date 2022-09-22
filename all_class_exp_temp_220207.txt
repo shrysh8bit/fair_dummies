@@ -1,0 +1,1612 @@
+/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python38.zip
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/lib-dynload
+/home/mt1/21CS60D06/.local/lib/python3.8/site-packages
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages
+/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/others
+/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/others/third_party/fairness_aware_learning
+/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/others/third_party/cqr
+nursery
+Baseline
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.664596
+Group 0 : Average length: 1.044255
+Group 1 : Percentage in the range (expecting 90.00): 89.033742
+Group 1 : Average length: 1.012270
+Init Loss = 0.7286677
+Final Loss = 0.31448066
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 1
+Coverage 0 = 0.8866459627329193
+Coverage 1 = 0.8903374233128835
+Length 0 = 1.0442546583850931
+Length 1 = 1.0122699386503067
+Prediction Error = 0.12037037037037035
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 01 | Avg. Pred Err = 0.1204 | Avg Length 0 = 1.0443 | Avg Length 1 = 1.0123 | Avg Coverage 0 = 0.8866 | Avg Coverage 1 = 0.8903 | Avg p_val = 0.0010 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.810427
+Group 0 : Average length: 1.080569
+Group 1 : Percentage in the range (expecting 90.00): 88.838612
+Group 1 : Average length: 1.000000
+Init Loss = 0.6210214
+Final Loss = 0.34178433
+Fair dummies test (classification score), p-value: 0.015984015984015984
+experiment = 2
+Coverage 0 = 0.8981042654028436
+Coverage 1 = 0.8883861236802413
+Length 0 = 1.080568720379147
+Length 1 = 1.0
+Prediction Error = 0.12654320987654322
+p_val = 0.015984015984015984
+Baseline_linear_model
+Num experiments 02 | Avg. Pred Err = 0.1235 | Avg Length 0 = 1.0624 | Avg Length 1 = 1.0061 | Avg Coverage 0 = 0.8924 | Avg Coverage 1 = 0.8894 | Avg p_val = 0.0085 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.399386
+Group 0 : Average length: 1.093702
+Group 1 : Percentage in the range (expecting 90.00): 90.542636
+Group 1 : Average length: 1.031008
+Init Loss = 0.67555124
+Final Loss = 0.35453537
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 3
+Coverage 0 = 0.9039938556067588
+Coverage 1 = 0.9054263565891473
+Length 0 = 1.0937019969278035
+Length 1 = 1.0310077519379846
+Prediction Error = 0.12345679012345678
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 03 | Avg. Pred Err = 0.1235 | Avg Length 0 = 1.0728 | Avg Length 1 = 1.0144 | Avg Coverage 0 = 0.8962 | Avg Coverage 1 = 0.8947 | Avg p_val = 0.0060 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.435459
+Group 0 : Average length: 1.115086
+Group 1 : Percentage in the range (expecting 90.00): 90.199081
+Group 1 : Average length: 1.032925
+Init Loss = 0.68938917
+Final Loss = 0.35819957
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 4
+Coverage 0 = 0.9043545878693624
+Coverage 1 = 0.9019908116385911
+Length 0 = 1.115085536547434
+Length 1 = 1.0329249617151608
+Prediction Error = 0.1304012345679012
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 04 | Avg. Pred Err = 0.1252 | Avg Length 0 = 1.0834 | Avg Length 1 = 1.0191 | Avg Coverage 0 = 0.8983 | Avg Coverage 1 = 0.8965 | Avg p_val = 0.0047 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.007686
+Group 0 : Average length: 1.068409
+Group 1 : Percentage in the range (expecting 90.00): 88.690937
+Group 1 : Average length: 1.027111
+Init Loss = 0.7410438
+Final Loss = 0.35499987
+Fair dummies test (classification score), p-value: 0.13986013986013987
+experiment = 5
+Coverage 0 = 0.9000768639508071
+Coverage 1 = 0.8869093725793958
+Length 0 = 1.0684089162182937
+Length 1 = 1.027110766847405
+Prediction Error = 0.13117283950617287
+p_val = 0.13986013986013987
+Baseline_linear_model
+Num experiments 05 | Avg. Pred Err = 0.1264 | Avg Length 0 = 1.0804 | Avg Length 1 = 1.0207 | Avg Coverage 0 = 0.8986 | Avg Coverage 1 = 0.8946 | Avg p_val = 0.0318 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.676358
+Group 0 : Average length: 1.074216
+Group 1 : Percentage in the range (expecting 90.00): 91.439689
+Group 1 : Average length: 1.020233
+Init Loss = 0.75982434
+Final Loss = 0.32872
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 6
+Coverage 0 = 0.8867635807192042
+Coverage 1 = 0.914396887159533
+Length 0 = 1.0742157612853864
+Length 1 = 1.0202334630350194
+Prediction Error = 0.12268518518518523
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 06 | Avg. Pred Err = 0.1258 | Avg Length 0 = 1.0794 | Avg Length 1 = 1.0206 | Avg Coverage 0 = 0.8967 | Avg Coverage 1 = 0.8979 | Avg p_val = 0.0266 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.970655
+Group 0 : Average length: 1.151242
+Group 1 : Percentage in the range (expecting 90.00): 90.894695
+Group 1 : Average length: 1.107680
+Init Loss = 0.7055583
+Final Loss = 0.37263718
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 7
+Coverage 0 = 0.909706546275395
+Coverage 1 = 0.9089469517022961
+Length 0 = 1.1512415349887133
+Length 1 = 1.107680126682502
+Prediction Error = 0.1415895061728395
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 07 | Avg. Pred Err = 0.1280 | Avg Length 0 = 1.0896 | Avg Length 1 = 1.0330 | Avg Coverage 0 = 0.8985 | Avg Coverage 1 = 0.8995 | Avg p_val = 0.0230 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.491037
+Group 0 : Average length: 1.088854
+Group 1 : Percentage in the range (expecting 90.00): 89.533995
+Group 1 : Average length: 1.035905
+Init Loss = 0.6456581
+Final Loss = 0.37121436
+Fair dummies test (classification score), p-value: 0.03496503496503497
+experiment = 8
+Coverage 0 = 0.9049103663289166
+Coverage 1 = 0.8953399541634836
+Length 0 = 1.0888542478565861
+Length 1 = 1.0359052711993888
+Prediction Error = 0.128858024691358
+p_val = 0.03496503496503497
+Baseline_linear_model
+Num experiments 08 | Avg. Pred Err = 0.1281 | Avg Length 0 = 1.0895 | Avg Length 1 = 1.0334 | Avg Coverage 0 = 0.8993 | Avg Coverage 1 = 0.8990 | Avg p_val = 0.0245 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.929285
+Group 0 : Average length: 1.105304
+Group 1 : Percentage in the range (expecting 90.00): 90.007746
+Group 1 : Average length: 1.013943
+Init Loss = 0.67881733
+Final Loss = 0.35947862
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 9
+Coverage 0 = 0.9192928516525749
+Coverage 1 = 0.9000774593338497
+Length 0 = 1.1053036126056879
+Length 1 = 1.0139426800929512
+Prediction Error = 0.11651234567901236
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 09 | Avg. Pred Err = 0.1268 | Avg Length 0 = 1.0913 | Avg Length 1 = 1.0312 | Avg Coverage 0 = 0.9015 | Avg Coverage 1 = 0.8991 | Avg p_val = 0.0219 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.024390
+Group 0 : Average length: 1.054116
+Group 1 : Percentage in the range (expecting 90.00): 89.765625
+Group 1 : Average length: 1.042969
+Init Loss = 0.81051
+Final Loss = 0.3682059
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 10
+Coverage 0 = 0.8902439024390244
+Coverage 1 = 0.89765625
+Length 0 = 1.0541158536585367
+Length 1 = 1.04296875
+Prediction Error = 0.12654320987654322
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 10 | Avg. Pred Err = 0.1268 | Avg Length 0 = 1.0876 | Avg Length 1 = 1.0324 | Avg Coverage 0 = 0.9004 | Avg Coverage 1 = 0.8989 | Avg p_val = 0.0198 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.200617
+Group 0 : Average length: 1.128858
+Group 1 : Percentage in the range (expecting 90.00): 91.049383
+Group 1 : Average length: 1.024691
+Init Loss = 0.6854965
+Final Loss = 0.34857714
+Fair dummies test (classification score), p-value: 0.003996003996003996
+experiment = 11
+Coverage 0 = 0.9020061728395061
+Coverage 1 = 0.9104938271604939
+Length 0 = 1.128858024691358
+Length 1 = 1.0246913580246915
+Prediction Error = 0.12538580246913578
+p_val = 0.003996003996003996
+Baseline_linear_model
+Num experiments 11 | Avg. Pred Err = 0.1267 | Avg Length 0 = 1.0913 | Avg Length 1 = 1.0317 | Avg Coverage 0 = 0.9006 | Avg Coverage 1 = 0.9000 | Avg p_val = 0.0183 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.685142
+Group 0 : Average length: 1.077752
+Group 1 : Percentage in the range (expecting 90.00): 89.791183
+Group 1 : Average length: 1.034029
+Init Loss = 0.72458434
+Final Loss = 0.36163336
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 12
+Coverage 0 = 0.9068514241724404
+Coverage 1 = 0.8979118329466357
+Length 0 = 1.077752117013087
+Length 1 = 1.034029389017788
+Prediction Error = 0.12191358024691357
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 12 | Avg. Pred Err = 0.1263 | Avg Length 0 = 1.0902 | Avg Length 1 = 1.0319 | Avg Coverage 0 = 0.9011 | Avg Coverage 1 = 0.8998 | Avg p_val = 0.0169 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.918458
+Group 0 : Average length: 1.085248
+Group 1 : Percentage in the range (expecting 90.00): 90.024135
+Group 1 : Average length: 1.051488
+Init Loss = 0.74927795
+Final Loss = 0.35127297
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 13
+Coverage 0 = 0.899184581171238
+Coverage 1 = 0.9002413515687852
+Length 0 = 1.0852483320978503
+Length 1 = 1.0514883346741755
+Prediction Error = 0.12962962962962965
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 13 | Avg. Pred Err = 0.1265 | Avg Length 0 = 1.0898 | Avg Length 1 = 1.0334 | Avg Coverage 0 = 0.9009 | Avg Coverage 1 = 0.8999 | Avg p_val = 0.0157 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.108108
+Group 0 : Average length: 1.034749
+Group 1 : Percentage in the range (expecting 90.00): 90.285274
+Group 1 : Average length: 1.043177
+Init Loss = 0.6593611
+Final Loss = 0.33914962
+Fair dummies test (classification score), p-value: 0.008991008991008992
+experiment = 14
+Coverage 0 = 0.8810810810810811
+Coverage 1 = 0.9028527370855821
+Length 0 = 1.0347490347490347
+Length 1 = 1.0431765612952968
+Prediction Error = 0.126929012345679
+p_val = 0.008991008991008992
+Baseline_linear_model
+Num experiments 14 | Avg. Pred Err = 0.1266 | Avg Length 0 = 1.0859 | Avg Length 1 = 1.0341 | Avg Coverage 0 = 0.8995 | Avg Coverage 1 = 0.9001 | Avg p_val = 0.0152 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.199689
+Group 0 : Average length: 1.064491
+Group 1 : Percentage in the range (expecting 90.00): 90.268199
+Group 1 : Average length: 1.032950
+Init Loss = 0.7352383
+Final Loss = 0.34966633
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 15
+Coverage 0 = 0.891996891996892
+Coverage 1 = 0.9026819923371647
+Length 0 = 1.0644910644910646
+Length 1 = 1.0329501915708812
+Prediction Error = 0.12731481481481477
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 15 | Avg. Pred Err = 0.1266 | Avg Length 0 = 1.0845 | Avg Length 1 = 1.0340 | Avg Coverage 0 = 0.8990 | Avg Coverage 1 = 0.9002 | Avg p_val = 0.0143 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.750988
+Group 0 : Average length: 1.053755
+Group 1 : Percentage in the range (expecting 90.00): 90.128109
+Group 1 : Average length: 1.039940
+Init Loss = 0.791499
+Final Loss = 0.3692392
+Fair dummies test (classification score), p-value: 0.001998001998001998
+experiment = 16
+Coverage 0 = 0.9075098814229249
+Coverage 1 = 0.9012810851544838
+Length 0 = 1.0537549407114624
+Length 1 = 1.039939713639789
+Prediction Error = 0.11805555555555558
+p_val = 0.001998001998001998
+Baseline_linear_model
+Num experiments 16 | Avg. Pred Err = 0.1261 | Avg Length 0 = 1.0825 | Avg Length 1 = 1.0344 | Avg Coverage 0 = 0.8995 | Avg Coverage 1 = 0.9003 | Avg p_val = 0.0135 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.544965
+Group 0 : Average length: 1.069946
+Group 1 : Percentage in the range (expecting 90.00): 88.071263
+Group 1 : Average length: 1.054996
+Init Loss = 0.73773247
+Final Loss = 0.34656677
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 17
+Coverage 0 = 0.9154496541122213
+Coverage 1 = 0.8807126258714175
+Length 0 = 1.0699461952344351
+Length 1 = 1.0549961270333075
+Prediction Error = 0.12770061728395066
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 17 | Avg. Pred Err = 0.1262 | Avg Length 0 = 1.0818 | Avg Length 1 = 1.0356 | Avg Coverage 0 = 0.9005 | Avg Coverage 1 = 0.8992 | Avg p_val = 0.0128 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.731801
+Group 0 : Average length: 1.101916
+Group 1 : Percentage in the range (expecting 90.00): 90.598291
+Group 1 : Average length: 1.073815
+Init Loss = 0.5735418
+Final Loss = 0.3672247
+Fair dummies test (classification score), p-value: 0.04295704295704296
+experiment = 18
+Coverage 0 = 0.8973180076628352
+Coverage 1 = 0.905982905982906
+Length 0 = 1.1019157088122606
+Length 1 = 1.0738150738150738
+Prediction Error = 0.1361882716049383
+p_val = 0.04295704295704296
+Baseline_linear_model
+Num experiments 18 | Avg. Pred Err = 0.1267 | Avg Length 0 = 1.0829 | Avg Length 1 = 1.0377 | Avg Coverage 0 = 0.9003 | Avg Coverage 1 = 0.8995 | Avg p_val = 0.0144 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.687500
+Group 0 : Average length: 1.067969
+Group 1 : Percentage in the range (expecting 90.00): 91.158537
+Group 1 : Average length: 1.048780
+Init Loss = 0.8140528
+Final Loss = 0.34574857
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 19
+Coverage 0 = 0.896875
+Coverage 1 = 0.9115853658536586
+Length 0 = 1.06796875
+Length 1 = 1.048780487804878
+Prediction Error = 0.12422839506172845
+p_val = 0.000999000999000999
+Baseline_linear_model
+Num experiments 19 | Avg. Pred Err = 0.1266 | Avg Length 0 = 1.0821 | Avg Length 1 = 1.0383 | Avg Coverage 0 = 0.9001 | Avg Coverage 1 = 0.9002 | Avg p_val = 0.0137 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.384615
+Group 0 : Average length: 1.143077
+Group 1 : Percentage in the range (expecting 90.00): 89.628483
+Group 1 : Average length: 1.079721
+Init Loss = 0.7149639
+Final Loss = 0.37221757
+Fair dummies test (classification score), p-value: 0.00999000999000999
+experiment = 20
+Coverage 0 = 0.9238461538461539
+Coverage 1 = 0.8962848297213623
+Length 0 = 1.143076923076923
+Length 1 = 1.0797213622291022
+Prediction Error = 0.1377314814814815
+p_val = 0.00999000999000999
+Baseline_linear_model
+Num experiments 20 | Avg. Pred Err = 0.1272 | Avg Length 0 = 1.0852 | Avg Length 1 = 1.0404 | Avg Coverage 0 = 0.9013 | Avg Coverage 1 = 0.9000 | Avg p_val = 0.0135 | min p_val = 0.0010
+======== Done =========
+nursery
+Baseline
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.984472
+Group 0 : Average length: 0.958075
+Group 1 : Percentage in the range (expecting 90.00): 86.963190
+Group 1 : Average length: 0.928681
+Init Loss = 0.7333825
+Final Loss = 0.27308074
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 1
+Coverage 0 = 0.8998447204968945
+Coverage 1 = 0.8696319018404908
+Length 0 = 0.9580745341614907
+Length 1 = 0.928680981595092
+Prediction Error = 0.08140432098765427
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 01 | Avg. Pred Err = 0.0814 | Avg Length 0 = 0.9581 | Avg Length 1 = 0.9287 | Avg Coverage 0 = 0.8998 | Avg Coverage 1 = 0.8696 | Avg p_val = 0.0010 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.180095
+Group 0 : Average length: 0.994471
+Group 1 : Percentage in the range (expecting 90.00): 88.838612
+Group 1 : Average length: 0.931373
+Init Loss = 0.73749804
+Final Loss = 0.2740799
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 2
+Coverage 0 = 0.9218009478672986
+Coverage 1 = 0.8883861236802413
+Length 0 = 0.9944707740916272
+Length 1 = 0.9313725490196079
+Prediction Error = 0.07060185185185186
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 02 | Avg. Pred Err = 0.0760 | Avg Length 0 = 0.9763 | Avg Length 1 = 0.9300 | Avg Coverage 0 = 0.9108 | Avg Coverage 1 = 0.8790 | Avg p_val = 0.0010 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.013825
+Group 0 : Average length: 0.964670
+Group 1 : Percentage in the range (expecting 90.00): 88.294574
+Group 1 : Average length: 0.929457
+Init Loss = 0.69903857
+Final Loss = 0.2964208
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 3
+Coverage 0 = 0.9101382488479263
+Coverage 1 = 0.8829457364341086
+Length 0 = 0.9646697388632872
+Length 1 = 0.9294573643410853
+Prediction Error = 0.07214506172839508
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 03 | Avg. Pred Err = 0.0747 | Avg Length 0 = 0.9724 | Avg Length 1 = 0.9298 | Avg Coverage 0 = 0.9106 | Avg Coverage 1 = 0.8803 | Avg p_val = 0.0010 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.290824
+Group 0 : Average length: 1.011664
+Group 1 : Percentage in the range (expecting 90.00): 91.117917
+Group 1 : Average length: 0.954058
+Init Loss = 0.6548804
+Final Loss = 0.28824818
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 4
+Coverage 0 = 0.9129082426127527
+Coverage 1 = 0.9111791730474732
+Length 0 = 1.0116640746500778
+Length 1 = 0.9540581929555896
+Prediction Error = 0.0864197530864198
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 04 | Avg. Pred Err = 0.0776 | Avg Length 0 = 0.9822 | Avg Length 1 = 0.9359 | Avg Coverage 0 = 0.9112 | Avg Coverage 1 = 0.8880 | Avg p_val = 0.0010 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.853190
+Group 0 : Average length: 0.968486
+Group 1 : Percentage in the range (expecting 90.00): 89.930287
+Group 1 : Average length: 0.946553
+Init Loss = 0.69945705
+Final Loss = 0.2743285
+Fair dummies test (classification score), p-value: 0.001998001998001998
+experiment = 5
+Coverage 0 = 0.9085318985395849
+Coverage 1 = 0.8993028659953525
+Length 0 = 0.9684857801691007
+Length 1 = 0.9465530596436871
+Prediction Error = 0.06867283950617287
+p_val = 0.001998001998001998
+Baseline_deep_model
+Num experiments 05 | Avg. Pred Err = 0.0758 | Avg Length 0 = 0.9795 | Avg Length 1 = 0.9380 | Avg Coverage 0 = 0.9106 | Avg Coverage 1 = 0.8903 | Avg p_val = 0.0012 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.283091
+Group 0 : Average length: 0.957154
+Group 1 : Percentage in the range (expecting 90.00): 88.482490
+Group 1 : Average length: 0.927626
+Init Loss = 0.5510283
+Final Loss = 0.2746309
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 6
+Coverage 0 = 0.9028309104820199
+Coverage 1 = 0.8848249027237354
+Length 0 = 0.9571537872991583
+Length 1 = 0.9276264591439689
+Prediction Error = 0.07407407407407407
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 06 | Avg. Pred Err = 0.0756 | Avg Length 0 = 0.9758 | Avg Length 1 = 0.9363 | Avg Coverage 0 = 0.9093 | Avg Coverage 1 = 0.8894 | Avg p_val = 0.0012 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.337096
+Group 0 : Average length: 0.959368
+Group 1 : Percentage in the range (expecting 90.00): 90.419636
+Group 1 : Average length: 0.950911
+Init Loss = 0.7347199
+Final Loss = 0.278659
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 7
+Coverage 0 = 0.8833709556057185
+Coverage 1 = 0.9041963578780681
+Length 0 = 0.9593679458239278
+Length 1 = 0.950910530482977
+Prediction Error = 0.08680555555555558
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 07 | Avg. Pred Err = 0.0772 | Avg Length 0 = 0.9734 | Avg Length 1 = 0.9384 | Avg Coverage 0 = 0.9056 | Avg Coverage 1 = 0.8915 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.789556
+Group 0 : Average length: 0.960249
+Group 1 : Percentage in the range (expecting 90.00): 90.909091
+Group 1 : Average length: 0.951872
+Init Loss = 0.63483
+Final Loss = 0.2725684
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 8
+Coverage 0 = 0.8978955572876072
+Coverage 1 = 0.9090909090909091
+Length 0 = 0.9602494154325799
+Length 1 = 0.9518716577540107
+Prediction Error = 0.07253086419753085
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 08 | Avg. Pred Err = 0.0766 | Avg Length 0 = 0.9718 | Avg Length 1 = 0.9401 | Avg Coverage 0 = 0.9047 | Avg Coverage 1 = 0.8937 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.621061
+Group 0 : Average length: 0.990776
+Group 1 : Percentage in the range (expecting 90.00): 90.162665
+Group 1 : Average length: 0.934934
+Init Loss = 0.5914805
+Final Loss = 0.29369867
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 9
+Coverage 0 = 0.9262106072252114
+Coverage 1 = 0.9016266460108443
+Length 0 = 0.9907763259031515
+Length 1 = 0.9349341595662277
+Prediction Error = 0.06288580246913578
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 09 | Avg. Pred Err = 0.0751 | Avg Length 0 = 0.9739 | Avg Length 1 = 0.9395 | Avg Coverage 0 = 0.9071 | Avg Coverage 1 = 0.8946 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.472561
+Group 0 : Average length: 0.989329
+Group 1 : Percentage in the range (expecting 90.00): 88.906250
+Group 1 : Average length: 0.928125
+Init Loss = 0.73548764
+Final Loss = 0.2745575
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 10
+Coverage 0 = 0.9047256097560976
+Coverage 1 = 0.8890625
+Length 0 = 0.989329268292683
+Length 1 = 0.928125
+Prediction Error = 0.0825617283950617
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 10 | Avg. Pred Err = 0.0758 | Avg Length 0 = 0.9754 | Avg Length 1 = 0.9384 | Avg Coverage 0 = 0.9068 | Avg Coverage 1 = 0.8940 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.432099
+Group 0 : Average length: 0.982253
+Group 1 : Percentage in the range (expecting 90.00): 89.274691
+Group 1 : Average length: 0.910494
+Init Loss = 0.72885346
+Final Loss = 0.2734698
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 11
+Coverage 0 = 0.904320987654321
+Coverage 1 = 0.8927469135802469
+Length 0 = 0.9822530864197531
+Length 1 = 0.9104938271604939
+Prediction Error = 0.06674382716049387
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 11 | Avg. Pred Err = 0.0750 | Avg Length 0 = 0.9760 | Avg Length 1 = 0.9358 | Avg Coverage 0 = 0.9066 | Avg Coverage 1 = 0.8939 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.070054
+Group 0 : Average length: 0.987683
+Group 1 : Percentage in the range (expecting 90.00): 89.327146
+Group 1 : Average length: 0.931168
+Init Loss = 0.661774
+Final Loss = 0.2816896
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 12
+Coverage 0 = 0.9107005388760585
+Coverage 1 = 0.8932714617169374
+Length 0 = 0.9876828329484219
+Length 1 = 0.9311678267594741
+Prediction Error = 0.08140432098765427
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 12 | Avg. Pred Err = 0.0755 | Avg Length 0 = 0.9770 | Avg Length 1 = 0.9354 | Avg Coverage 0 = 0.9069 | Avg Coverage 1 = 0.8939 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.621942
+Group 0 : Average length: 0.958488
+Group 1 : Percentage in the range (expecting 90.00): 90.506838
+Group 1 : Average length: 0.960579
+Init Loss = 0.55019265
+Final Loss = 0.28468138
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 13
+Coverage 0 = 0.8962194217939214
+Coverage 1 = 0.9050683829444891
+Length 0 = 0.9584877687175686
+Length 1 = 0.9605792437650845
+Prediction Error = 0.08333333333333337
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 13 | Avg. Pred Err = 0.0761 | Avg Length 0 = 0.9756 | Avg Length 1 = 0.9374 | Avg Coverage 0 = 0.9061 | Avg Coverage 1 = 0.8947 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.266409
+Group 0 : Average length: 0.964479
+Group 1 : Percentage in the range (expecting 90.00): 91.287587
+Group 1 : Average length: 0.963763
+Init Loss = 0.6291462
+Final Loss = 0.2966469
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 14
+Coverage 0 = 0.8926640926640926
+Coverage 1 = 0.912875867386276
+Length 0 = 0.9644787644787645
+Length 1 = 0.9637625289128758
+Prediction Error = 0.07754629629629628
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 14 | Avg. Pred Err = 0.0762 | Avg Length 0 = 0.9748 | Avg Length 1 = 0.9393 | Avg Coverage 0 = 0.9052 | Avg Coverage 1 = 0.8960 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.655789
+Group 0 : Average length: 0.964258
+Group 1 : Percentage in the range (expecting 90.00): 91.034483
+Group 1 : Average length: 0.956322
+Init Loss = 0.6456595
+Final Loss = 0.28379428
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 15
+Coverage 0 = 0.8865578865578866
+Coverage 1 = 0.9103448275862069
+Length 0 = 0.9642579642579643
+Length 1 = 0.9563218390804598
+Prediction Error = 0.07600308641975306
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 15 | Avg. Pred Err = 0.0762 | Avg Length 0 = 0.9741 | Avg Length 1 = 0.9404 | Avg Coverage 0 = 0.9039 | Avg Coverage 1 = 0.8970 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.909091
+Group 0 : Average length: 0.985771
+Group 1 : Percentage in the range (expecting 90.00): 90.354182
+Group 1 : Average length: 0.954785
+Init Loss = 0.7583837
+Final Loss = 0.28378046
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 16
+Coverage 0 = 0.9090909090909091
+Coverage 1 = 0.9035418236623964
+Length 0 = 0.9857707509881423
+Length 1 = 0.9547852298417483
+Prediction Error = 0.08526234567901236
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 16 | Avg. Pred Err = 0.0768 | Avg Length 0 = 0.9748 | Avg Length 1 = 0.9413 | Avg Coverage 0 = 0.9042 | Avg Coverage 1 = 0.8974 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.392006
+Group 0 : Average length: 0.958493
+Group 1 : Percentage in the range (expecting 90.00): 89.542990
+Group 1 : Average length: 0.942680
+Init Loss = 0.72628015
+Final Loss = 0.29263324
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 17
+Coverage 0 = 0.9039200614911607
+Coverage 1 = 0.895429899302866
+Length 0 = 0.9584934665641814
+Length 1 = 0.9426800929512006
+Prediction Error = 0.08179012345679015
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 17 | Avg. Pred Err = 0.0771 | Avg Length 0 = 0.9739 | Avg Length 1 = 0.9414 | Avg Coverage 0 = 0.9042 | Avg Coverage 1 = 0.8973 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.655172
+Group 0 : Average length: 0.965517
+Group 1 : Percentage in the range (expecting 90.00): 88.500389
+Group 1 : Average length: 0.926962
+Init Loss = 0.6610311
+Final Loss = 0.28256154
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 18
+Coverage 0 = 0.896551724137931
+Coverage 1 = 0.885003885003885
+Length 0 = 0.9655172413793104
+Length 1 = 0.9269619269619269
+Prediction Error = 0.07638888888888884
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 18 | Avg. Pred Err = 0.0770 | Avg Length 0 = 0.9734 | Avg Length 1 = 0.9406 | Avg Coverage 0 = 0.9038 | Avg Coverage 1 = 0.8966 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.750000
+Group 0 : Average length: 0.952344
+Group 1 : Percentage in the range (expecting 90.00): 89.939024
+Group 1 : Average length: 0.928354
+Init Loss = 0.75146174
+Final Loss = 0.27988404
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 19
+Coverage 0 = 0.8875
+Coverage 1 = 0.899390243902439
+Length 0 = 0.95234375
+Length 1 = 0.9283536585365854
+Prediction Error = 0.06944444444444442
+p_val = 0.000999000999000999
+Baseline_deep_model
+Num experiments 19 | Avg. Pred Err = 0.0766 | Avg Length 0 = 0.9723 | Avg Length 1 = 0.9399 | Avg Coverage 0 = 0.9029 | Avg Coverage 1 = 0.8967 | Avg p_val = 0.0011 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.769231
+Group 0 : Average length: 0.964615
+Group 1 : Percentage in the range (expecting 90.00): 89.241486
+Group 1 : Average length: 0.921827
+Init Loss = 0.72918487
+Final Loss = 0.2725325
+Fair dummies test (classification score), p-value: 0.005994005994005994
+experiment = 20
+Coverage 0 = 0.8976923076923077
+Coverage 1 = 0.8924148606811145
+Length 0 = 0.9646153846153847
+Length 1 = 0.9218266253869969
+Prediction Error = 0.07214506172839508
+p_val = 0.005994005994005994
+Baseline_deep_model
+Num experiments 20 | Avg. Pred Err = 0.0764 | Avg Length 0 = 0.9719 | Avg Length 1 = 0.9390 | Avg Coverage 0 = 0.9027 | Avg Coverage 1 = 0.8965 | Avg p_val = 0.0013 | min p_val = 0.0010
+======== Done =========
+nursery
+HGR
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5051233 ACC = 0.232055569848212
+mu = 0.98 Loss = 0.66620964 ACC = 0.6439413429379984
+Group 0 : Percentage in the range (expecting 90.00): 88.509317
+Group 0 : Average length: 1.347826
+Group 1 : Percentage in the range (expecting 90.00): 89.570552
+Group 1 : Average length: 1.282975
+Init Loss = 0.69826543
+Final Loss = 0.58927554
+Fair dummies test (classification score), p-value: 0.7252747252747253
+experiment = 1
+Coverage 0 = 0.8850931677018633
+Coverage 1 = 0.8957055214723927
+Length 0 = 1.3478260869565217
+Length 1 = 1.2829754601226995
+Prediction Error = 0.3545524691358025
+p_val = 0.7252747252747253
+HGR_linear_model
+Num experiments 01 | Avg. Pred Err = 0.3546 | Avg Length 0 = 1.3478 | Avg Length 1 = 1.2830 | Avg Coverage 0 = 0.8851 | Avg Coverage 1 = 0.8957 | Avg p_val = 0.7253 | min p_val = 0.7253
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3318685 ACC = 0.3699511191149987
+mu = 0.98 Loss = 0.6597276 ACC = 0.6664522768201698
+Group 0 : Percentage in the range (expecting 90.00): 88.941548
+Group 0 : Average length: 1.270142
+Group 1 : Percentage in the range (expecting 90.00): 88.461538
+Group 1 : Average length: 1.270739
+Init Loss = 0.69050944
+Final Loss = 0.5829697
+Fair dummies test (classification score), p-value: 0.058941058941058944
+experiment = 2
+Coverage 0 = 0.8894154818325435
+Coverage 1 = 0.8846153846153846
+Length 0 = 1.2701421800947867
+Length 1 = 1.2707390648567118
+Prediction Error = 0.345679012345679
+p_val = 0.058941058941058944
+HGR_linear_model
+Num experiments 02 | Avg. Pred Err = 0.3501 | Avg Length 0 = 1.3090 | Avg Length 1 = 1.2769 | Avg Coverage 0 = 0.8873 | Avg Coverage 1 = 0.8902 | Avg p_val = 0.3921 | min p_val = 0.0589
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4996363 ACC = 0.19745304862361718
+mu = 0.98 Loss = 0.6375162 ACC = 0.6480576279907384
+Group 0 : Percentage in the range (expecting 90.00): 91.781874
+Group 0 : Average length: 1.417051
+Group 1 : Percentage in the range (expecting 90.00): 90.232558
+Group 1 : Average length: 1.316279
+Init Loss = 0.71938246
+Final Loss = 0.56997114
+Fair dummies test (classification score), p-value: 0.33666333666333664
+experiment = 3
+Coverage 0 = 0.9178187403993856
+Coverage 1 = 0.9023255813953488
+Length 0 = 1.4170506912442395
+Length 1 = 1.3162790697674418
+Prediction Error = 0.3599537037037037
+p_val = 0.33666333666333664
+HGR_linear_model
+Num experiments 03 | Avg. Pred Err = 0.3534 | Avg Length 0 = 1.3450 | Avg Length 1 = 1.2900 | Avg Coverage 0 = 0.8974 | Avg Coverage 1 = 0.8942 | Avg p_val = 0.3736 | min p_val = 0.0589
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3119063 ACC = 0.3810136351942372
+mu = 0.98 Loss = 0.6477937 ACC = 0.6489580653460252
+Group 0 : Percentage in the range (expecting 90.00): 88.491446
+Group 0 : Average length: 1.319596
+Group 1 : Percentage in the range (expecting 90.00): 91.117917
+Group 1 : Average length: 1.292496
+Init Loss = 0.707146
+Final Loss = 0.5815175
+Fair dummies test (classification score), p-value: 0.2097902097902098
+experiment = 4
+Coverage 0 = 0.8849144634525661
+Coverage 1 = 0.9111791730474732
+Length 0 = 1.3195956454121307
+Length 1 = 1.2924961715160797
+Prediction Error = 0.34992283950617287
+p_val = 0.2097902097902098
+HGR_linear_model
+Num experiments 04 | Avg. Pred Err = 0.3525 | Avg Length 0 = 1.3387 | Avg Length 1 = 1.2906 | Avg Coverage 0 = 0.8943 | Avg Coverage 1 = 0.8985 | Avg p_val = 0.3327 | min p_val = 0.0589
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5630368 ACC = 0.20118343195266272
+mu = 0.98 Loss = 1.1087304 ACC = 0.3325186519166452
+Group 0 : Percentage in the range (expecting 90.00): 90.238278
+Group 0 : Average length: 2.272867
+Group 1 : Percentage in the range (expecting 90.00): 91.169636
+Group 1 : Average length: 2.320682
+Init Loss = 0.7501351
+Final Loss = 0.6235941
+Fair dummies test (classification score), p-value: 0.5564435564435565
+experiment = 5
+Coverage 0 = 0.9023827824750192
+Coverage 1 = 0.9116963594113091
+Length 0 = 2.272867025365104
+Length 1 = 2.3206816421378775
+Prediction Error = 0.6655092592592593
+p_val = 0.5564435564435565
+HGR_linear_model
+Num experiments 05 | Avg. Pred Err = 0.4151 | Avg Length 0 = 1.5255 | Avg Length 1 = 1.4966 | Avg Coverage 0 = 0.8959 | Avg Coverage 1 = 0.9011 | Avg p_val = 0.3774 | min p_val = 0.0589
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4654603 ACC = 0.2846668381785439
+mu = 0.98 Loss = 0.7216458 ACC = 0.6604064831489581
+Group 0 : Percentage in the range (expecting 90.00): 90.206580
+Group 0 : Average length: 1.283091
+Group 1 : Percentage in the range (expecting 90.00): 89.727626
+Group 1 : Average length: 1.295720
+Init Loss = 0.7169718
+Final Loss = 0.61250526
+Fair dummies test (classification score), p-value: 0.5514485514485514
+experiment = 6
+Coverage 0 = 0.9020657995409335
+Coverage 1 = 0.8972762645914397
+Length 0 = 1.2830910482019893
+Length 1 = 1.2957198443579767
+Prediction Error = 0.3310185185185185
+p_val = 0.5514485514485514
+HGR_linear_model
+Num experiments 06 | Avg. Pred Err = 0.4011 | Avg Length 0 = 1.4851 | Avg Length 1 = 1.4631 | Avg Coverage 0 = 0.8969 | Avg Coverage 1 = 0.9005 | Avg p_val = 0.4064 | min p_val = 0.0589
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.7375939 ACC = 0.15924877797787496
+mu = 0.98 Loss = 1.0923179 ACC = 0.331232312837664
+Group 0 : Percentage in the range (expecting 90.00): 90.293454
+Group 0 : Average length: 2.335591
+Group 1 : Percentage in the range (expecting 90.00): 90.340459
+Group 1 : Average length: 2.318290
+Init Loss = 0.68527246
+Final Loss = 0.62674016
+Fair dummies test (classification score), p-value: 0.016983016983016984
+experiment = 7
+Coverage 0 = 0.9029345372460497
+Coverage 1 = 0.9034045922406968
+Length 0 = 2.3355906696764483
+Length 1 = 2.318289786223278
+Prediction Error = 0.6655092592592593
+p_val = 0.016983016983016984
+HGR_linear_model
+Num experiments 07 | Avg. Pred Err = 0.4389 | Avg Length 0 = 1.6066 | Avg Length 1 = 1.5853 | Avg Coverage 0 = 0.8978 | Avg Coverage 1 = 0.9009 | Avg p_val = 0.3508 | min p_val = 0.0170
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5887978 ACC = 0.2729611525598148
+mu = 0.98 Loss = 1.1231365 ACC = 0.312194494468742
+Group 0 : Percentage in the range (expecting 90.00): 92.283710
+Group 0 : Average length: 2.363991
+Group 1 : Percentage in the range (expecting 90.00): 90.909091
+Group 1 : Average length: 2.271199
+Init Loss = 0.7618549
+Final Loss = 0.6208351
+Fair dummies test (classification score), p-value: 0.1838161838161838
+experiment = 8
+Coverage 0 = 0.9228371005455963
+Coverage 1 = 0.9090909090909091
+Length 0 = 2.363990646921278
+Length 1 = 2.2711993888464477
+Prediction Error = 0.6851851851851851
+p_val = 0.1838161838161838
+HGR_linear_model
+Num experiments 08 | Avg. Pred Err = 0.4697 | Avg Length 0 = 1.7013 | Avg Length 1 = 1.6710 | Avg Coverage 0 = 0.9009 | Avg Coverage 1 = 0.9019 | Avg p_val = 0.3299 | min p_val = 0.0170
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.6174039 ACC = 0.1875482377154618
+mu = 0.98 Loss = 0.6729093 ACC = 0.639310522253666
+Group 0 : Percentage in the range (expecting 90.00): 92.467333
+Group 0 : Average length: 1.359723
+Group 1 : Percentage in the range (expecting 90.00): 88.690937
+Group 1 : Average length: 1.262587
+Init Loss = 0.66419137
+Final Loss = 0.5958685
+Fair dummies test (classification score), p-value: 0.3356643356643357
+experiment = 9
+Coverage 0 = 0.92467332820907
+Coverage 1 = 0.8869093725793958
+Length 0 = 1.3597232897770946
+Length 1 = 1.262587141750581
+Prediction Error = 0.33526234567901236
+p_val = 0.3356643356643357
+HGR_linear_model
+Num experiments 09 | Avg. Pred Err = 0.4547 | Avg Length 0 = 1.6633 | Avg Length 1 = 1.6257 | Avg Coverage 0 = 0.9036 | Avg Coverage 1 = 0.9002 | Avg p_val = 0.3306 | min p_val = 0.0170
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3831065 ACC = 0.34190892719320815
+mu = 0.98 Loss = 0.68492204 ACC = 0.6629791613069205
+Group 0 : Percentage in the range (expecting 90.00): 91.006098
+Group 0 : Average length: 1.307927
+Group 1 : Percentage in the range (expecting 90.00): 90.468750
+Group 1 : Average length: 1.278906
+Init Loss = 0.72662115
+Final Loss = 0.59882075
+Fair dummies test (classification score), p-value: 0.23176823176823177
+experiment = 10
+Coverage 0 = 0.9100609756097561
+Coverage 1 = 0.9046875
+Length 0 = 1.3079268292682926
+Length 1 = 1.27890625
+Prediction Error = 0.33217592592592593
+p_val = 0.23176823176823177
+HGR_linear_model
+Num experiments 10 | Avg. Pred Err = 0.4425 | Avg Length 0 = 1.6278 | Avg Length 1 = 1.5910 | Avg Coverage 0 = 0.9042 | Avg Coverage 1 = 0.9007 | Avg p_val = 0.3207 | min p_val = 0.0170
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.6352861 ACC = 0.1628505273990224
+mu = 0.98 Loss = 0.8059756 ACC = 0.7469771031643941
+Group 0 : Percentage in the range (expecting 90.00): 88.348765
+Group 0 : Average length: 1.209877
+Group 1 : Percentage in the range (expecting 90.00): 91.435185
+Group 1 : Average length: 1.279321
+Init Loss = 0.7056613
+Final Loss = 0.6504872
+Fair dummies test (classification score), p-value: 0.002997002997002997
+experiment = 11
+Coverage 0 = 0.8834876543209876
+Coverage 1 = 0.9143518518518519
+Length 0 = 1.2098765432098766
+Length 1 = 1.279320987654321
+Prediction Error = 0.24845679012345678
+p_val = 0.002997002997002997
+HGR_linear_model
+Num experiments 11 | Avg. Pred Err = 0.4248 | Avg Length 0 = 1.5898 | Avg Length 1 = 1.5627 | Avg Coverage 0 = 0.9023 | Avg Coverage 1 = 0.9019 | Avg p_val = 0.2918 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.629236 ACC = 0.2244661692822228
+mu = 0.98 Loss = 0.6481876 ACC = 0.6443272446616928
+Group 0 : Percentage in the range (expecting 90.00): 90.993072
+Group 0 : Average length: 1.386451
+Group 1 : Percentage in the range (expecting 90.00): 90.641918
+Group 1 : Average length: 1.275329
+Init Loss = 0.7164685
+Final Loss = 0.5828518
+Fair dummies test (classification score), p-value: 0.10989010989010989
+experiment = 12
+Coverage 0 = 0.9099307159353349
+Coverage 1 = 0.9064191802010828
+Length 0 = 1.386451116243264
+Length 1 = 1.2753286929621037
+Prediction Error = 0.3441358024691358
+p_val = 0.10989010989010989
+HGR_linear_model
+Num experiments 12 | Avg. Pred Err = 0.4181 | Avg Length 0 = 1.5728 | Avg Length 1 = 1.5387 | Avg Coverage 0 = 0.9030 | Avg Coverage 1 = 0.9023 | Avg p_val = 0.2766 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.626913 ACC = 0.15281708258296886
+mu = 0.98 Loss = 0.7172621 ACC = 0.8017751479289941
+Group 0 : Percentage in the range (expecting 90.00): 89.696071
+Group 0 : Average length: 1.258710
+Group 1 : Percentage in the range (expecting 90.00): 90.024135
+Group 1 : Average length: 1.219630
+Init Loss = 0.70501155
+Final Loss = 0.6271645
+Fair dummies test (classification score), p-value: 0.1798201798201798
+experiment = 13
+Coverage 0 = 0.8969607116382505
+Coverage 1 = 0.9002413515687852
+Length 0 = 1.2587101556708673
+Length 1 = 1.2196299275945293
+Prediction Error = 0.19945987654320985
+p_val = 0.1798201798201798
+HGR_linear_model
+Num experiments 13 | Avg. Pred Err = 0.4013 | Avg Length 0 = 1.5487 | Avg Length 1 = 1.5142 | Avg Coverage 0 = 0.9025 | Avg Coverage 1 = 0.9021 | Avg p_val = 0.2692 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4323092 ACC = 0.2550810393619758
+mu = 0.98 Loss = 0.6566425 ACC = 0.6448417802932853
+Group 0 : Percentage in the range (expecting 90.00): 89.652510
+Group 0 : Average length: 1.357529
+Group 1 : Percentage in the range (expecting 90.00): 91.904395
+Group 1 : Average length: 1.304549
+Init Loss = 0.7368039
+Final Loss = 0.58569884
+Fair dummies test (classification score), p-value: 0.7262737262737263
+experiment = 14
+Coverage 0 = 0.8965250965250965
+Coverage 1 = 0.9190439475713185
+Length 0 = 1.3575289575289575
+Length 1 = 1.3045489591364687
+Prediction Error = 0.3491512345679012
+p_val = 0.7262737262737263
+HGR_linear_model
+Num experiments 14 | Avg. Pred Err = 0.3976 | Avg Length 0 = 1.5350 | Avg Length 1 = 1.4992 | Avg Coverage 0 = 0.9021 | Avg Coverage 1 = 0.9034 | Avg p_val = 0.3018 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5305206 ACC = 0.26048366349369695
+mu = 0.98 Loss = 0.6515196 ACC = 0.6640082325701054
+Group 0 : Percentage in the range (expecting 90.00): 89.898990
+Group 0 : Average length: 1.277389
+Group 1 : Percentage in the range (expecting 90.00): 89.348659
+Group 1 : Average length: 1.296552
+Init Loss = 0.70616114
+Final Loss = 0.58409953
+Fair dummies test (classification score), p-value: 0.3726273726273726
+experiment = 15
+Coverage 0 = 0.898989898989899
+Coverage 1 = 0.8934865900383142
+Length 0 = 1.2773892773892774
+Length 1 = 1.296551724137931
+Prediction Error = 0.34066358024691357
+p_val = 0.3726273726273726
+HGR_linear_model
+Num experiments 15 | Avg. Pred Err = 0.3938 | Avg Length 0 = 1.5179 | Avg Length 1 = 1.4857 | Avg Coverage 0 = 0.9019 | Avg Coverage 1 = 0.9027 | Avg p_val = 0.3066 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.7595881 ACC = 0.10162078723951634
+mu = 0.98 Loss = 1.0737789 ACC = 0.33097504502186775
+Group 0 : Percentage in the range (expecting 90.00): 89.249012
+Group 0 : Average length: 2.337549
+Group 1 : Percentage in the range (expecting 90.00): 89.751319
+Group 1 : Average length: 2.344386
+Init Loss = 0.6794043
+Final Loss = 0.62446314
+Fair dummies test (classification score), p-value: 0.1928071928071928
+experiment = 16
+Coverage 0 = 0.892490118577075
+Coverage 1 = 0.8975131876412962
+Length 0 = 2.3375494071146243
+Length 1 = 2.3443858327053504
+Prediction Error = 0.6786265432098766
+p_val = 0.1928071928071928
+HGR_linear_model
+Num experiments 16 | Avg. Pred Err = 0.4116 | Avg Length 0 = 1.5691 | Avg Length 1 = 1.5394 | Avg Coverage 0 = 0.9013 | Avg Coverage 1 = 0.9024 | Avg p_val = 0.2995 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5234965 ACC = 0.2678157962438899
+mu = 0.98 Loss = 0.6677545 ACC = 0.6399536917931566
+Group 0 : Percentage in the range (expecting 90.00): 92.083013
+Group 0 : Average length: 1.363566
+Group 1 : Percentage in the range (expecting 90.00): 89.930287
+Group 1 : Average length: 1.271108
+Init Loss = 0.6831539
+Final Loss = 0.5873816
+Fair dummies test (classification score), p-value: 0.027972027972027972
+experiment = 17
+Coverage 0 = 0.9208301306687163
+Coverage 1 = 0.8993028659953525
+Length 0 = 1.363566487317448
+Length 1 = 1.2711076684740512
+Prediction Error = 0.3452932098765432
+p_val = 0.027972027972027972
+HGR_linear_model
+Num experiments 17 | Avg. Pred Err = 0.4077 | Avg Length 0 = 1.5570 | Avg Length 1 = 1.5236 | Avg Coverage 0 = 0.9024 | Avg Coverage 1 = 0.9022 | Avg p_val = 0.2835 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5389457 ACC = 0.2191921790583998
+mu = 0.98 Loss = 1.0968673 ACC = 0.3107795214818626
+Group 0 : Percentage in the range (expecting 90.00): 87.586207
+Group 0 : Average length: 2.336398
+Group 1 : Percentage in the range (expecting 90.00): 90.909091
+Group 1 : Average length: 2.274281
+Init Loss = 0.69525605
+Final Loss = 0.6335957
+Fair dummies test (classification score), p-value: 0.2857142857142857
+experiment = 18
+Coverage 0 = 0.8758620689655172
+Coverage 1 = 0.9090909090909091
+Length 0 = 2.33639846743295
+Length 1 = 2.2742812742812744
+Prediction Error = 0.7002314814814814
+p_val = 0.2857142857142857
+HGR_linear_model
+Num experiments 18 | Avg. Pred Err = 0.4239 | Avg Length 0 = 1.6003 | Avg Length 1 = 1.5653 | Avg Coverage 0 = 0.9010 | Avg Coverage 1 = 0.9026 | Avg p_val = 0.2836 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.8941206 ACC = 0.06959094417288397
+mu = 0.98 Loss = 1.2649822 ACC = 0.0
+Group 0 : Percentage in the range (expecting 90.00): 90.000000
+Group 0 : Average length: 2.933594
+Group 1 : Percentage in the range (expecting 90.00): 89.024390
+Group 1 : Average length: 2.910061
+Init Loss = 0.69052416
+Final Loss = 0.598492
+Fair dummies test (classification score), p-value: 0.6613386613386614
+experiment = 19
+Coverage 0 = 0.9
+Coverage 1 = 0.8902439024390244
+Length 0 = 2.93359375
+Length 1 = 2.910060975609756
+Prediction Error = 1.0
+p_val = 0.6613386613386614
+HGR_linear_model
+Num experiments 19 | Avg. Pred Err = 0.4543 | Avg Length 0 = 1.6705 | Avg Length 1 = 1.6361 | Avg Coverage 0 = 0.9009 | Avg Coverage 1 = 0.9019 | Avg p_val = 0.3035 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.7484648 ACC = 0.1692822227939285
+mu = 0.98 Loss = 1.0922378 ACC = 0.31978389503473115
+Group 0 : Percentage in the range (expecting 90.00): 92.307692
+Group 0 : Average length: 2.387692
+Group 1 : Percentage in the range (expecting 90.00): 89.164087
+Group 1 : Average length: 2.261610
+Init Loss = 0.6771437
+Final Loss = 0.6271164
+Fair dummies test (classification score), p-value: 0.6853146853146853
+experiment = 20
+Coverage 0 = 0.9230769230769231
+Coverage 1 = 0.891640866873065
+Length 0 = 2.3876923076923076
+Length 1 = 2.261609907120743
+Prediction Error = 0.7013888888888888
+p_val = 0.6853146853146853
+HGR_linear_model
+Num experiments 20 | Avg. Pred Err = 0.4666 | Avg Length 0 = 1.7063 | Avg Length 1 = 1.6673 | Avg Coverage 0 = 0.9020 | Avg Coverage 1 = 0.9014 | Avg p_val = 0.3226 | min p_val = 0.0030
+======== Done =========
+nursery
+HGR
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.508576 ACC = 0.16426550038590174
+mu = 0.98 Loss = 0.58395135 ACC = 0.7139181888345768
+Group 0 : Percentage in the range (expecting 90.00): 87.577640
+Group 0 : Average length: 1.397516
+Group 1 : Percentage in the range (expecting 90.00): 88.650307
+Group 1 : Average length: 1.429448
+Init Loss = 0.7123772
+Final Loss = 0.5183176
+Fair dummies test (classification score), p-value: 0.3176823176823177
+experiment = 1
+Coverage 0 = 0.8757763975155279
+Coverage 1 = 0.8865030674846626
+Length 0 = 1.3975155279503106
+Length 1 = 1.4294478527607362
+Prediction Error = 0.2920524691358025
+p_val = 0.3176823176823177
+HGR_deep_model
+Num experiments 01 | Avg. Pred Err = 0.2921 | Avg Length 0 = 1.3975 | Avg Length 1 = 1.4294 | Avg Coverage 0 = 0.8758 | Avg Coverage 1 = 0.8865 | Avg p_val = 0.3177 | min p_val = 0.3177
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4386729 ACC = 0.23257010547980447
+mu = 0.98 Loss = 0.59067374 ACC = 0.7068433239001801
+Group 0 : Percentage in the range (expecting 90.00): 91.864139
+Group 0 : Average length: 1.525276
+Group 1 : Percentage in the range (expecting 90.00): 90.346908
+Group 1 : Average length: 1.427602
+Init Loss = 0.6949436
+Final Loss = 0.51935136
+Fair dummies test (classification score), p-value: 0.7732267732267732
+experiment = 2
+Coverage 0 = 0.9186413902053713
+Coverage 1 = 0.9034690799396682
+Length 0 = 1.5252764612954186
+Length 1 = 1.4276018099547512
+Prediction Error = 0.30632716049382713
+p_val = 0.7732267732267732
+HGR_deep_model
+Num experiments 02 | Avg. Pred Err = 0.2992 | Avg Length 0 = 1.4614 | Avg Length 1 = 1.4285 | Avg Coverage 0 = 0.8972 | Avg Coverage 1 = 0.8950 | Avg p_val = 0.5455 | min p_val = 0.3177
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.392087 ACC = 0.3133521996398251
+mu = 0.98 Loss = 0.5954808 ACC = 0.6866478003601749
+Group 0 : Percentage in the range (expecting 90.00): 88.632873
+Group 0 : Average length: 1.465438
+Group 1 : Percentage in the range (expecting 90.00): 90.465116
+Group 1 : Average length: 1.455039
+Init Loss = 0.7204763
+Final Loss = 0.52430147
+Fair dummies test (classification score), p-value: 0.003996003996003996
+experiment = 3
+Coverage 0 = 0.8863287250384024
+Coverage 1 = 0.9046511627906977
+Length 0 = 1.4654377880184333
+Length 1 = 1.4550387596899226
+Prediction Error = 0.31558641975308643
+p_val = 0.003996003996003996
+HGR_deep_model
+Num experiments 03 | Avg. Pred Err = 0.3047 | Avg Length 0 = 1.4627 | Avg Length 1 = 1.4374 | Avg Coverage 0 = 0.8936 | Avg Coverage 1 = 0.8982 | Avg p_val = 0.3650 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4891453 ACC = 0.18253151530743503
+mu = 0.98 Loss = 1.1909463 ACC = 0.31811165423205556
+Group 0 : Percentage in the range (expecting 90.00): 89.657854
+Group 0 : Average length: 2.481337
+Group 1 : Percentage in the range (expecting 90.00): 90.658499
+Group 1 : Average length: 2.441807
+Init Loss = 0.6876751
+Final Loss = 0.6035719
+Fair dummies test (classification score), p-value: 0.1018981018981019
+experiment = 4
+Coverage 0 = 0.8965785381026439
+Coverage 1 = 0.9065849923430321
+Length 0 = 2.481337480559876
+Length 1 = 2.4418070444104134
+Prediction Error = 0.689429012345679
+p_val = 0.1018981018981019
+HGR_deep_model
+Num experiments 04 | Avg. Pred Err = 0.4008 | Avg Length 0 = 1.7174 | Avg Length 1 = 1.6885 | Avg Coverage 0 = 0.8943 | Avg Coverage 1 = 0.9003 | Avg p_val = 0.2992 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3638734 ACC = 0.30923591458708516
+mu = 0.98 Loss = 0.5541203 ACC = 0.7418317468484693
+Group 0 : Percentage in the range (expecting 90.00): 90.238278
+Group 0 : Average length: 1.370484
+Group 1 : Percentage in the range (expecting 90.00): 90.627421
+Group 1 : Average length: 1.356313
+Init Loss = 0.67184544
+Final Loss = 0.4694091
+Fair dummies test (classification score), p-value: 0.22077922077922077
+experiment = 5
+Coverage 0 = 0.9023827824750192
+Coverage 1 = 0.9062742060418281
+Length 0 = 1.3704842428900845
+Length 1 = 1.3563129357087529
+Prediction Error = 0.2372685185185185
+p_val = 0.22077922077922077
+HGR_deep_model
+Num experiments 05 | Avg. Pred Err = 0.3681 | Avg Length 0 = 1.6480 | Avg Length 1 = 1.6220 | Avg Coverage 0 = 0.8959 | Avg Coverage 1 = 0.9015 | Avg p_val = 0.2835 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.328248 ACC = 0.3416516593774119
+mu = 0.98 Loss = 0.55579144 ACC = 0.7567532801646514
+Group 0 : Percentage in the range (expecting 90.00): 90.359602
+Group 0 : Average length: 1.377200
+Group 1 : Percentage in the range (expecting 90.00): 88.715953
+Group 1 : Average length: 1.325292
+Init Loss = 0.71533597
+Final Loss = 0.46991703
+Fair dummies test (classification score), p-value: 0.5714285714285714
+experiment = 6
+Coverage 0 = 0.9035960214231064
+Coverage 1 = 0.8871595330739299
+Length 0 = 1.3771996939556235
+Length 1 = 1.3252918287937743
+Prediction Error = 0.23996913580246915
+p_val = 0.5714285714285714
+HGR_deep_model
+Num experiments 06 | Avg. Pred Err = 0.3468 | Avg Length 0 = 1.6029 | Avg Length 1 = 1.5726 | Avg Coverage 0 = 0.8972 | Avg Coverage 1 = 0.8991 | Avg p_val = 0.3315 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4139514 ACC = 0.24530486236171856
+mu = 0.98 Loss = 1.168348 ACC = 0.31373810136351943
+Group 0 : Percentage in the range (expecting 90.00): 88.939052
+Group 0 : Average length: 2.495862
+Group 1 : Percentage in the range (expecting 90.00): 92.240697
+Group 1 : Average length: 2.428345
+Init Loss = 0.71196175
+Final Loss = 0.60970324
+Fair dummies test (classification score), p-value: 0.1838161838161838
+experiment = 7
+Coverage 0 = 0.8893905191873589
+Coverage 1 = 0.9224069675376089
+Length 0 = 2.4958615500376222
+Length 1 = 2.428345209817894
+Prediction Error = 0.6863425925925926
+p_val = 0.1838161838161838
+HGR_deep_model
+Num experiments 07 | Avg. Pred Err = 0.3953 | Avg Length 0 = 1.7304 | Avg Length 1 = 1.6948 | Avg Coverage 0 = 0.8961 | Avg Coverage 1 = 0.9024 | Avg p_val = 0.3104 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4750477 ACC = 0.21237458193979933
+mu = 0.98 Loss = 1.2213405 ACC = 0.3124517622845382
+Group 0 : Percentage in the range (expecting 90.00): 90.958691
+Group 0 : Average length: 2.488698
+Group 1 : Percentage in the range (expecting 90.00): 92.436975
+Group 1 : Average length: 2.476700
+Init Loss = 0.6826698
+Final Loss = 0.5980418
+Fair dummies test (classification score), p-value: 0.6283716283716284
+experiment = 8
+Coverage 0 = 0.9095869056897895
+Coverage 1 = 0.9243697478991597
+Length 0 = 2.4886983632112236
+Length 1 = 2.476699770817418
+Prediction Error = 0.6847993827160495
+p_val = 0.6283716283716284
+HGR_deep_model
+Num experiments 08 | Avg. Pred Err = 0.4315 | Avg Length 0 = 1.8252 | Avg Length 1 = 1.7926 | Avg Coverage 0 = 0.8978 | Avg Coverage 1 = 0.9052 | Avg p_val = 0.3501 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4923664 ACC = 0.16014921533316182
+mu = 0.98 Loss = 1.2134589 ACC = 0.3089786467712889
+Group 0 : Percentage in the range (expecting 90.00): 93.389700
+Group 0 : Average length: 2.495772
+Group 1 : Percentage in the range (expecting 90.00): 89.775368
+Group 1 : Average length: 2.402789
+Init Loss = 0.74909264
+Final Loss = 0.6033028
+Fair dummies test (classification score), p-value: 0.21678321678321677
+experiment = 9
+Coverage 0 = 0.9338970023059185
+Coverage 1 = 0.8977536793183578
+Length 0 = 2.495772482705611
+Length 1 = 2.40278853601859
+Prediction Error = 0.6766975308641976
+p_val = 0.21678321678321677
+HGR_deep_model
+Num experiments 09 | Avg. Pred Err = 0.4587 | Avg Length 0 = 1.8997 | Avg Length 1 = 1.8604 | Avg Coverage 0 = 0.9018 | Avg Coverage 1 = 0.9044 | Avg p_val = 0.3353 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3703926 ACC = 0.3156676099819912
+mu = 0.98 Loss = 0.58652025 ACC = 0.685747363004888
+Group 0 : Percentage in the range (expecting 90.00): 91.234756
+Group 0 : Average length: 1.530488
+Group 1 : Percentage in the range (expecting 90.00): 92.031250
+Group 1 : Average length: 1.487500
+Init Loss = 0.69932306
+Final Loss = 0.5053917
+Fair dummies test (classification score), p-value: 0.2707292707292707
+experiment = 10
+Coverage 0 = 0.9123475609756098
+Coverage 1 = 0.9203125
+Length 0 = 1.5304878048780488
+Length 1 = 1.4875
+Prediction Error = 0.3213734567901234
+p_val = 0.2707292707292707
+HGR_deep_model
+Num experiments 10 | Avg. Pred Err = 0.4450 | Avg Length 0 = 1.8628 | Avg Length 1 = 1.8231 | Avg Coverage 0 = 0.9029 | Avg Coverage 1 = 0.9059 | Avg p_val = 0.3289 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.533027 ACC = 0.16400823257010547
+mu = 0.98 Loss = 0.56250614 ACC = 0.7504502186776434
+Group 0 : Percentage in the range (expecting 90.00): 89.814815
+Group 0 : Average length: 1.395833
+Group 1 : Percentage in the range (expecting 90.00): 91.358025
+Group 1 : Average length: 1.403549
+Init Loss = 0.68323326
+Final Loss = 0.48593763
+Fair dummies test (classification score), p-value: 0.5764235764235764
+experiment = 11
+Coverage 0 = 0.8981481481481481
+Coverage 1 = 0.9135802469135802
+Length 0 = 1.3958333333333333
+Length 1 = 1.4035493827160495
+Prediction Error = 0.24845679012345678
+p_val = 0.5764235764235764
+HGR_deep_model
+Num experiments 11 | Avg. Pred Err = 0.4271 | Avg Length 0 = 1.8204 | Avg Length 1 = 1.7849 | Avg Coverage 0 = 0.9024 | Avg Coverage 1 = 0.9066 | Avg p_val = 0.3514 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3818111 ACC = 0.25212245948031903
+mu = 0.98 Loss = 0.5752843 ACC = 0.6706971957808078
+Group 0 : Percentage in the range (expecting 90.00): 91.608930
+Group 0 : Average length: 1.523480
+Group 1 : Percentage in the range (expecting 90.00): 89.017788
+Group 1 : Average length: 1.457850
+Init Loss = 0.6806521
+Final Loss = 0.49554718
+Fair dummies test (classification score), p-value: 0.008991008991008992
+experiment = 12
+Coverage 0 = 0.9160892994611239
+Coverage 1 = 0.8901778808971385
+Length 0 = 1.523479599692071
+Length 1 = 1.4578499613302398
+Prediction Error = 0.32793209876543206
+p_val = 0.008991008991008992
+HGR_deep_model
+Num experiments 12 | Avg. Pred Err = 0.4189 | Avg Length 0 = 1.7956 | Avg Length 1 = 1.7577 | Avg Coverage 0 = 0.9036 | Avg Coverage 1 = 0.9053 | Avg p_val = 0.3228 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4566681 ACC = 0.2297401595060458
+mu = 0.98 Loss = 0.5947414 ACC = 0.7126318497555956
+Group 0 : Percentage in the range (expecting 90.00): 89.177168
+Group 0 : Average length: 1.407709
+Group 1 : Percentage in the range (expecting 90.00): 91.069992
+Group 1 : Average length: 1.412711
+Init Loss = 0.66381913
+Final Loss = 0.5252175
+Fair dummies test (classification score), p-value: 0.12487512487512488
+experiment = 13
+Coverage 0 = 0.8917716827279466
+Coverage 1 = 0.910699919549477
+Length 0 = 1.407709414381023
+Length 1 = 1.412711182622687
+Prediction Error = 0.2889660493827161
+p_val = 0.12487512487512488
+HGR_deep_model
+Num experiments 13 | Avg. Pred Err = 0.4089 | Avg Length 0 = 1.7658 | Avg Length 1 = 1.7311 | Avg Coverage 0 = 0.9027 | Avg Coverage 1 = 0.9057 | Avg p_val = 0.3076 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4696867 ACC = 0.2316696681245176
+mu = 0.98 Loss = 0.5958535 ACC = 0.6944944687419604
+Group 0 : Percentage in the range (expecting 90.00): 89.961390
+Group 0 : Average length: 1.405405
+Group 1 : Percentage in the range (expecting 90.00): 89.899769
+Group 1 : Average length: 1.428682
+Init Loss = 0.67247
+Final Loss = 0.5271704
+Fair dummies test (classification score), p-value: 0.4355644355644356
+experiment = 14
+Coverage 0 = 0.8996138996138996
+Coverage 1 = 0.8989976869699307
+Length 0 = 1.4054054054054055
+Length 1 = 1.4286815728604472
+Prediction Error = 0.30208333333333337
+p_val = 0.4355644355644356
+HGR_deep_model
+Num experiments 14 | Avg. Pred Err = 0.4012 | Avg Length 0 = 1.7400 | Avg Length 1 = 1.7095 | Avg Coverage 0 = 0.9024 | Avg Coverage 1 = 0.9052 | Avg p_val = 0.3168 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3258373 ACC = 0.3605608438384358
+mu = 0.98 Loss = 0.5621371 ACC = 0.7167481348083354
+Group 0 : Percentage in the range (expecting 90.00): 90.831391
+Group 0 : Average length: 1.468531
+Group 1 : Percentage in the range (expecting 90.00): 90.344828
+Group 1 : Average length: 1.416858
+Init Loss = 0.7461771
+Final Loss = 0.50752366
+Fair dummies test (classification score), p-value: 0.02097902097902098
+experiment = 15
+Coverage 0 = 0.9083139083139083
+Coverage 1 = 0.903448275862069
+Length 0 = 1.4685314685314685
+Length 1 = 1.4168582375478926
+Prediction Error = 0.28587962962962965
+p_val = 0.02097902097902098
+HGR_deep_model
+Num experiments 15 | Avg. Pred Err = 0.3935 | Avg Length 0 = 1.7219 | Avg Length 1 = 1.6900 | Avg Coverage 0 = 0.9028 | Avg Coverage 1 = 0.9051 | Avg p_val = 0.2970 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.3800976 ACC = 0.3228711088242861
+mu = 0.98 Loss = 0.5648338 ACC = 0.7546951376382814
+Group 0 : Percentage in the range (expecting 90.00): 89.328063
+Group 0 : Average length: 1.384980
+Group 1 : Percentage in the range (expecting 90.00): 91.032404
+Group 1 : Average length: 1.363225
+Init Loss = 0.72851706
+Final Loss = 0.49975097
+Fair dummies test (classification score), p-value: 0.3626373626373626
+experiment = 16
+Coverage 0 = 0.8932806324110671
+Coverage 1 = 0.9103240391861341
+Length 0 = 1.3849802371541502
+Length 1 = 1.3632253202712887
+Prediction Error = 0.2550154320987654
+p_val = 0.3626373626373626
+HGR_deep_model
+Num experiments 16 | Avg. Pred Err = 0.3849 | Avg Length 0 = 1.7009 | Avg Length 1 = 1.6696 | Avg Coverage 0 = 0.9022 | Avg Coverage 1 = 0.9054 | Avg p_val = 0.3011 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592

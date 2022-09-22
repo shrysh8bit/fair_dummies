@@ -41,7 +41,8 @@ def gen_synthetic_data(n = 6000, seed=0):
             
 def read_meps_data(base_path):
     
-    df = pd.read_csv(base_path + 'meps_21_reg_fix.csv')
+    # df = pd.read_csv(base_path + 'meps_21_reg_fix.csv')
+    df = pd.read_csv(base_path + 'meps_21_reg.csv')
     column_names = df.columns
     response_name = "UTILIZATION_reg"
     column_names = column_names[column_names!=response_name]
