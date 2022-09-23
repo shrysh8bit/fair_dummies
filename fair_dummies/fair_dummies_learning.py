@@ -7,9 +7,10 @@ import torch.optim as optim
 from sklearn.preprocessing import StandardScaler
 from torch.utils.data import TensorDataset
 from torch.utils.data import DataLoader
-from fair_dummies import utility_functions
-from fair_dummies.utility_functions import linear_model
-from fair_dummies.utility_functions import deep_model, deep_reg_model
+import utility_functions
+# from fair_dummies import utility_functions
+from utility_functions import linear_model
+from utility_functions import deep_model, deep_reg_model
 
 def covariance_diff_biased(Z, W, scale=1.0):
 

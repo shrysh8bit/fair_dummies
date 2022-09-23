@@ -8,8 +8,7 @@
 
 import os
 import sys
-
-print(os.getcwd())
+sys.path.append('.')
 
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others/third_party/fairness_aware_learning')))
 sys.path.append(os.path.abspath(os.path.join(os.getcwd() + '/others/third_party/cqr')))

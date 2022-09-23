@@ -1610,3 +1610,1978 @@ Num experiments 16 | Avg. Pred Err = 0.3849 | Avg Length 0 = 1.7009 | Avg Length
 n train = 7774 p = 13
 n calibration = 2592
 n test = 2592
+Init : Loss = 1.4418753 ACC = 0.2480061744275791
+mu = 0.98 Loss = 0.6022898 ACC = 0.6947517365577566
+Group 0 : Percentage in the range (expecting 90.00): 91.006918
+Group 0 : Average length: 1.427364
+Group 1 : Percentage in the range (expecting 90.00): 88.613478
+Group 1 : Average length: 1.392719
+Init Loss = 0.696046
+Final Loss = 0.51244116
+Fair dummies test (classification score), p-value: 0.3926073926073926
+experiment = 17
+Coverage 0 = 0.9100691775557264
+Coverage 1 = 0.8861347792408986
+Length 0 = 1.4273635664873174
+Length 1 = 1.3927188226181255
+Prediction Error = 0.30015432098765427
+p_val = 0.3926073926073926
+HGR_deep_model
+Num experiments 17 | Avg. Pred Err = 0.3799 | Avg Length 0 = 1.6848 | Avg Length 1 = 1.6533 | Avg Coverage 0 = 0.9027 | Avg Coverage 1 = 0.9043 | Avg p_val = 0.3065 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4517263 ACC = 0.23784409570362747
+mu = 0.98 Loss = 0.6013619 ACC = 0.6998970928736815
+Group 0 : Percentage in the range (expecting 90.00): 87.892720
+Group 0 : Average length: 1.368582
+Group 1 : Percentage in the range (expecting 90.00): 90.753691
+Group 1 : Average length: 1.427350
+Init Loss = 0.72823435
+Final Loss = 0.5339018
+Fair dummies test (classification score), p-value: 0.5304695304695305
+experiment = 18
+Coverage 0 = 0.878927203065134
+Coverage 1 = 0.9075369075369075
+Length 0 = 1.3685823754789272
+Length 1 = 1.4273504273504274
+Prediction Error = 0.2943672839506173
+p_val = 0.5304695304695305
+HGR_deep_model
+Num experiments 18 | Avg. Pred Err = 0.3752 | Avg Length 0 = 1.6672 | Avg Length 1 = 1.6408 | Avg Coverage 0 = 0.9014 | Avg Coverage 1 = 0.9045 | Avg p_val = 0.3190 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.4527977 ACC = 0.2316696681245176
+mu = 0.98 Loss = 0.759226 ACC = 0.7396449704142012
+Group 0 : Percentage in the range (expecting 90.00): 89.140625
+Group 0 : Average length: 1.387500
+Group 1 : Percentage in the range (expecting 90.00): 88.719512
+Group 1 : Average length: 1.380335
+Init Loss = 0.69600844
+Final Loss = 0.6302876
+Fair dummies test (classification score), p-value: 0.7242757242757243
+experiment = 19
+Coverage 0 = 0.89140625
+Coverage 1 = 0.8871951219512195
+Length 0 = 1.3875
+Length 1 = 1.3803353658536586
+Prediction Error = 0.2442129629629629
+p_val = 0.7242757242757243
+HGR_deep_model
+Num experiments 19 | Avg. Pred Err = 0.3683 | Avg Length 0 = 1.6525 | Avg Length 1 = 1.6271 | Avg Coverage 0 = 0.9008 | Avg Coverage 1 = 0.9036 | Avg p_val = 0.3403 | min p_val = 0.0040
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Init : Loss = 1.5097257 ACC = 0.16722408026755853
+mu = 0.98 Loss = 1.1961561 ACC = 0.3218420375611011
+Group 0 : Percentage in the range (expecting 90.00): 90.615385
+Group 0 : Average length: 2.497692
+Group 1 : Percentage in the range (expecting 90.00): 90.557276
+Group 1 : Average length: 2.415635
+Init Loss = 0.6311261
+Final Loss = 0.6017415
+Fair dummies test (classification score), p-value: 0.3256743256743257
+experiment = 20
+Coverage 0 = 0.9061538461538462
+Coverage 1 = 0.9055727554179567
+Length 0 = 2.497692307692308
+Length 1 = 2.4156346749226008
+Prediction Error = 0.7002314814814814
+p_val = 0.3256743256743257
+HGR_deep_model
+Num experiments 20 | Avg. Pred Err = 0.3849 | Avg Length 0 = 1.6948 | Avg Length 1 = 1.6665 | Avg Coverage 0 = 0.9011 | Avg Coverage 1 = 0.9037 | Avg p_val = 0.3396 | min p_val = 0.0040
+======== Done =========
+nursery
+AdversarialDebiasing
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.285714
+Group 0 : Average length: 1.423913
+Group 1 : Percentage in the range (expecting 90.00): 90.184049
+Group 1 : Average length: 1.408742
+Init Loss = 0.6784908
+Final Loss = 0.42227367
+Fair dummies test (classification score), p-value: 0.27372627372627373
+experiment = 1
+Coverage 0 = 0.8928571428571429
+Coverage 1 = 0.901840490797546
+Length 0 = 1.423913043478261
+Length 1 = 1.4087423312883436
+Prediction Error = 0.32986111111111116
+p_val = 0.27372627372627373
+AdversarialDebiasing_deep_model
+Num experiments 01 | Avg. Pred Err = 0.3299 | Avg Length 0 = 1.4239 | Avg Length 1 = 1.4087 | Avg Coverage 0 = 0.8929 | Avg Coverage 1 = 0.9018 | Avg p_val = 0.2737 | min p_val = 0.2737
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.521327
+Group 0 : Average length: 1.537125
+Group 1 : Percentage in the range (expecting 90.00): 90.346908
+Group 1 : Average length: 1.470588
+Init Loss = 0.6972718
+Final Loss = 0.36195955
+Fair dummies test (classification score), p-value: 0.46553446553446554
+experiment = 2
+Coverage 0 = 0.9052132701421801
+Coverage 1 = 0.9034690799396682
+Length 0 = 1.537124802527646
+Length 1 = 1.4705882352941178
+Prediction Error = 0.3472222222222222
+p_val = 0.46553446553446554
+AdversarialDebiasing_deep_model
+Num experiments 02 | Avg. Pred Err = 0.3385 | Avg Length 0 = 1.4805 | Avg Length 1 = 1.4397 | Avg Coverage 0 = 0.8990 | Avg Coverage 1 = 0.9027 | Avg p_val = 0.3696 | min p_val = 0.2737
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.784946
+Group 0 : Average length: 1.469278
+Group 1 : Percentage in the range (expecting 90.00): 90.232558
+Group 1 : Average length: 1.434884
+Init Loss = 0.6782674
+Final Loss = 0.33633506
+Fair dummies test (classification score), p-value: 0.01898101898101898
+experiment = 3
+Coverage 0 = 0.8978494623655914
+Coverage 1 = 0.9023255813953488
+Length 0 = 1.4692780337941629
+Length 1 = 1.4348837209302325
+Prediction Error = 0.3599537037037037
+p_val = 0.01898101898101898
+AdversarialDebiasing_deep_model
+Num experiments 03 | Avg. Pred Err = 0.3457 | Avg Length 0 = 1.4768 | Avg Length 1 = 1.4381 | Avg Coverage 0 = 0.8986 | Avg Coverage 1 = 0.9025 | Avg p_val = 0.2527 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.813375
+Group 0 : Average length: 1.444790
+Group 1 : Percentage in the range (expecting 90.00): 91.424196
+Group 1 : Average length: 1.419602
+Init Loss = 0.72164404
+Final Loss = 0.4497984
+Fair dummies test (classification score), p-value: 0.4205794205794206
+experiment = 4
+Coverage 0 = 0.8981337480559876
+Coverage 1 = 0.9142419601837672
+Length 0 = 1.4447900466562986
+Length 1 = 1.4196018376722819
+Prediction Error = 0.33912037037037035
+p_val = 0.4205794205794206
+AdversarialDebiasing_deep_model
+Num experiments 04 | Avg. Pred Err = 0.3440 | Avg Length 0 = 1.4688 | Avg Length 1 = 1.4335 | Avg Coverage 0 = 0.8985 | Avg Coverage 1 = 0.9055 | Avg p_val = 0.2947 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.161414
+Group 0 : Average length: 1.460415
+Group 1 : Percentage in the range (expecting 90.00): 90.007746
+Group 1 : Average length: 1.450039
+Init Loss = 0.7517055
+Final Loss = 0.380398
+Fair dummies test (classification score), p-value: 0.34865134865134867
+experiment = 5
+Coverage 0 = 0.9016141429669485
+Coverage 1 = 0.9000774593338497
+Length 0 = 1.4604150653343582
+Length 1 = 1.4500387296669248
+Prediction Error = 0.36304012345679015
+p_val = 0.34865134865134867
+AdversarialDebiasing_deep_model
+Num experiments 05 | Avg. Pred Err = 0.3478 | Avg Length 0 = 1.4671 | Avg Length 1 = 1.4368 | Avg Coverage 0 = 0.8991 | Avg Coverage 1 = 0.9044 | Avg p_val = 0.3055 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.201224
+Group 0 : Average length: 1.452946
+Group 1 : Percentage in the range (expecting 90.00): 90.661479
+Group 1 : Average length: 1.396887
+Init Loss = 0.6877302
+Final Loss = 0.35748118
+Fair dummies test (classification score), p-value: 0.7502497502497503
+experiment = 6
+Coverage 0 = 0.9120122417750574
+Coverage 1 = 0.9066147859922179
+Length 0 = 1.4529456771231828
+Length 1 = 1.3968871595330739
+Prediction Error = 0.34452160493827155
+p_val = 0.7502497502497503
+AdversarialDebiasing_deep_model
+Num experiments 06 | Avg. Pred Err = 0.3473 | Avg Length 0 = 1.4647 | Avg Length 1 = 1.4301 | Avg Coverage 0 = 0.9013 | Avg Coverage 1 = 0.9048 | Avg p_val = 0.3796 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.315275
+Group 0 : Average length: 1.447705
+Group 1 : Percentage in the range (expecting 90.00): 92.557403
+Group 1 : Average length: 1.431512
+Init Loss = 0.77589333
+Final Loss = 0.46834004
+Fair dummies test (classification score), p-value: 0.8641358641358642
+experiment = 7
+Coverage 0 = 0.8931527464258842
+Coverage 1 = 0.9255740300870943
+Length 0 = 1.4477050413844996
+Length 1 = 1.4315122723673792
+Prediction Error = 0.26003086419753085
+p_val = 0.8641358641358642
+AdversarialDebiasing_deep_model
+Num experiments 07 | Avg. Pred Err = 0.3348 | Avg Length 0 = 1.4623 | Avg Length 1 = 1.4303 | Avg Coverage 0 = 0.9001 | Avg Coverage 1 = 0.9077 | Avg p_val = 0.4488 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.971941
+Group 0 : Average length: 1.512860
+Group 1 : Percentage in the range (expecting 90.00): 90.221543
+Group 1 : Average length: 1.468296
+Init Loss = 0.6910798
+Final Loss = 0.4115075
+Fair dummies test (classification score), p-value: 0.5354645354645354
+experiment = 8
+Coverage 0 = 0.9197194076383476
+Coverage 1 = 0.9022154316271963
+Length 0 = 1.5128604832424006
+Length 1 = 1.46829640947288
+Prediction Error = 0.37577160493827155
+p_val = 0.5354645354645354
+AdversarialDebiasing_deep_model
+Num experiments 08 | Avg. Pred Err = 0.3399 | Avg Length 0 = 1.4686 | Avg Length 1 = 1.4351 | Avg Coverage 0 = 0.9026 | Avg Coverage 1 = 0.9070 | Avg p_val = 0.4597 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.313605
+Group 0 : Average length: 1.510377
+Group 1 : Percentage in the range (expecting 90.00): 88.381100
+Group 1 : Average length: 1.456235
+Init Loss = 0.73541915
+Final Loss = 0.3542226
+Fair dummies test (classification score), p-value: 0.2967032967032967
+experiment = 9
+Coverage 0 = 0.9231360491929285
+Coverage 1 = 0.8838109992254066
+Length 0 = 1.5103766333589546
+Length 1 = 1.4562354763749032
+Prediction Error = 0.33526234567901236
+p_val = 0.2967032967032967
+AdversarialDebiasing_deep_model
+Num experiments 09 | Avg. Pred Err = 0.3394 | Avg Length 0 = 1.4733 | Avg Length 1 = 1.4374 | Avg Coverage 0 = 0.9049 | Avg Coverage 1 = 0.9045 | Avg p_val = 0.4416 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.158537
+Group 0 : Average length: 2.019817
+Group 1 : Percentage in the range (expecting 90.00): 89.296875
+Group 1 : Average length: 1.980469
+Init Loss = 0.67339456
+Final Loss = 0.43521833
+Fair dummies test (classification score), p-value: 0.6293706293706294
+experiment = 10
+Coverage 0 = 0.9115853658536586
+Coverage 1 = 0.89296875
+Length 0 = 2.019817073170732
+Length 1 = 1.98046875
+Prediction Error = 0.28202160493827155
+p_val = 0.6293706293706294
+AdversarialDebiasing_deep_model
+Num experiments 10 | Avg. Pred Err = 0.3337 | Avg Length 0 = 1.5279 | Avg Length 1 = 1.4917 | Avg Coverage 0 = 0.9055 | Avg Coverage 1 = 0.9033 | Avg p_val = 0.4603 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.737654
+Group 0 : Average length: 1.386574
+Group 1 : Percentage in the range (expecting 90.00): 89.506173
+Group 1 : Average length: 1.353395
+Init Loss = 0.65443826
+Final Loss = 0.4499888
+Fair dummies test (classification score), p-value: 0.023976023976023976
+experiment = 11
+Coverage 0 = 0.8973765432098766
+Coverage 1 = 0.8950617283950617
+Length 0 = 1.3865740740740742
+Length 1 = 1.353395061728395
+Prediction Error = 0.23804012345679015
+p_val = 0.023976023976023976
+AdversarialDebiasing_deep_model
+Num experiments 11 | Avg. Pred Err = 0.3250 | Avg Length 0 = 1.5151 | Avg Length 1 = 1.4791 | Avg Coverage 0 = 0.9048 | Avg Coverage 1 = 0.9026 | Avg p_val = 0.4207 | min p_val = 0.0190
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.377213
+Group 0 : Average length: 1.387991
+Group 1 : Percentage in the range (expecting 90.00): 89.559165
+Group 1 : Average length: 1.350348
+Init Loss = 0.63718396
+Final Loss = 0.395313
+Fair dummies test (classification score), p-value: 0.002997002997002997
+experiment = 12
+Coverage 0 = 0.9037721324095458
+Coverage 1 = 0.8955916473317865
+Length 0 = 1.3879907621247114
+Length 1 = 1.3503480278422273
+Prediction Error = 0.2407407407407407
+p_val = 0.002997002997002997
+AdversarialDebiasing_deep_model
+Num experiments 12 | Avg. Pred Err = 0.3180 | Avg Length 0 = 1.5045 | Avg Length 1 = 1.4684 | Avg Coverage 0 = 0.9047 | Avg Coverage 1 = 0.9020 | Avg p_val = 0.3859 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.325426
+Group 0 : Average length: 2.055597
+Group 1 : Percentage in the range (expecting 90.00): 90.506838
+Group 1 : Average length: 2.108608
+Init Loss = 0.70354754
+Final Loss = 0.36314288
+Fair dummies test (classification score), p-value: 0.03196803196803197
+experiment = 13
+Coverage 0 = 0.8932542624166049
+Coverage 1 = 0.9050683829444891
+Length 0 = 2.055596738324685
+Length 1 = 2.1086082059533386
+Prediction Error = 0.31018518518518523
+p_val = 0.03196803196803197
+AdversarialDebiasing_deep_model
+Num experiments 13 | Avg. Pred Err = 0.3174 | Avg Length 0 = 1.5469 | Avg Length 1 = 1.5177 | Avg Coverage 0 = 0.9038 | Avg Coverage 1 = 0.9022 | Avg p_val = 0.3586 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.189189
+Group 0 : Average length: 1.807722
+Group 1 : Percentage in the range (expecting 90.00): 90.670779
+Group 1 : Average length: 1.819584
+Init Loss = 0.6480589
+Final Loss = 0.4462366
+Fair dummies test (classification score), p-value: 0.34765234765234765
+experiment = 14
+Coverage 0 = 0.8918918918918919
+Coverage 1 = 0.9067077872012336
+Length 0 = 1.8077220077220078
+Length 1 = 1.8195836545875097
+Prediction Error = 0.24768518518518523
+p_val = 0.34765234765234765
+AdversarialDebiasing_deep_model
+Num experiments 14 | Avg. Pred Err = 0.3124 | Avg Length 0 = 1.5655 | Avg Length 1 = 1.5392 | Avg Coverage 0 = 0.9030 | Avg Coverage 1 = 0.9025 | Avg p_val = 0.3579 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.277389
+Group 0 : Average length: 1.491064
+Group 1 : Percentage in the range (expecting 90.00): 89.655172
+Group 1 : Average length: 1.439847
+Init Loss = 0.7268216
+Final Loss = 0.26000142
+Fair dummies test (classification score), p-value: 0.6273726273726273
+experiment = 15
+Coverage 0 = 0.8927738927738927
+Coverage 1 = 0.896551724137931
+Length 0 = 1.491064491064491
+Length 1 = 1.439846743295019
+Prediction Error = 0.347608024691358
+p_val = 0.6273726273726273
+AdversarialDebiasing_deep_model
+Num experiments 15 | Avg. Pred Err = 0.3147 | Avg Length 0 = 1.5605 | Avg Length 1 = 1.5326 | Avg Coverage 0 = 0.9023 | Avg Coverage 1 = 0.9021 | Avg p_val = 0.3758 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.146245
+Group 0 : Average length: 1.460079
+Group 1 : Percentage in the range (expecting 90.00): 89.223813
+Group 1 : Average length: 1.355690
+Init Loss = 0.7197452
+Final Loss = 0.3847569
+Fair dummies test (classification score), p-value: 0.0919080919080919
+experiment = 16
+Coverage 0 = 0.9114624505928853
+Coverage 1 = 0.8922381311228335
+Length 0 = 1.4600790513833992
+Length 1 = 1.3556895252449133
+Prediction Error = 0.23649691358024694
+p_val = 0.0919080919080919
+AdversarialDebiasing_deep_model
+Num experiments 16 | Avg. Pred Err = 0.3098 | Avg Length 0 = 1.5543 | Avg Length 1 = 1.5215 | Avg Coverage 0 = 0.9029 | Avg Coverage 1 = 0.9015 | Avg p_val = 0.3581 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.313605
+Group 0 : Average length: 1.510377
+Group 1 : Percentage in the range (expecting 90.00): 90.007746
+Group 1 : Average length: 1.431448
+Init Loss = 0.69934857
+Final Loss = 0.37836623
+Fair dummies test (classification score), p-value: 0.27472527472527475
+experiment = 17
+Coverage 0 = 0.9231360491929285
+Coverage 1 = 0.9000774593338497
+Length 0 = 1.5103766333589546
+Length 1 = 1.43144848954299
+Prediction Error = 0.34490740740740744
+p_val = 0.27472527472527475
+AdversarialDebiasing_deep_model
+Num experiments 17 | Avg. Pred Err = 0.3119 | Avg Length 0 = 1.5517 | Avg Length 1 = 1.5162 | Avg Coverage 0 = 0.9041 | Avg Coverage 1 = 0.9014 | Avg p_val = 0.3532 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.425287
+Group 0 : Average length: 1.958621
+Group 1 : Percentage in the range (expecting 90.00): 90.520591
+Group 1 : Average length: 1.981352
+Init Loss = 0.73308223
+Final Loss = 0.41435704
+Fair dummies test (classification score), p-value: 0.5464535464535465
+experiment = 18
+Coverage 0 = 0.8942528735632184
+Coverage 1 = 0.9052059052059052
+Length 0 = 1.9586206896551723
+Length 1 = 1.9813519813519813
+Prediction Error = 0.283179012345679
+p_val = 0.5464535464535465
+AdversarialDebiasing_deep_model
+Num experiments 18 | Avg. Pred Err = 0.3103 | Avg Length 0 = 1.5743 | Avg Length 1 = 1.5421 | Avg Coverage 0 = 0.9035 | Avg Coverage 1 = 0.9016 | Avg p_val = 0.3639 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.593750
+Group 0 : Average length: 1.400781
+Group 1 : Percentage in the range (expecting 90.00): 87.957317
+Group 1 : Average length: 1.355945
+Init Loss = 0.6814406
+Final Loss = 0.3824933
+Fair dummies test (classification score), p-value: 0.006993006993006993
+experiment = 19
+Coverage 0 = 0.8859375
+Coverage 1 = 0.8795731707317073
+Length 0 = 1.40078125
+Length 1 = 1.3559451219512195
+Prediction Error = 0.3661265432098766
+p_val = 0.006993006993006993
+AdversarialDebiasing_deep_model
+Num experiments 19 | Avg. Pred Err = 0.3133 | Avg Length 0 = 1.5652 | Avg Length 1 = 1.5323 | Avg Coverage 0 = 0.9026 | Avg Coverage 1 = 0.9005 | Avg p_val = 0.3451 | min p_val = 0.0030
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.384615
+Group 0 : Average length: 1.411538
+Group 1 : Percentage in the range (expecting 90.00): 89.473684
+Group 1 : Average length: 1.360681
+Init Loss = 0.79646707
+Final Loss = 0.26695117
+Fair dummies test (classification score), p-value: 0.25674325674325676
+experiment = 20
+Coverage 0 = 0.9138461538461539
+Coverage 1 = 0.8947368421052632
+Length 0 = 1.4115384615384616
+Length 1 = 1.3606811145510835
+Prediction Error = 0.2465277777777778
+p_val = 0.25674325674325676
+AdversarialDebiasing_deep_model
+Num experiments 20 | Avg. Pred Err = 0.3099 | Avg Length 0 = 1.5575 | Avg Length 1 = 1.5237 | Avg Coverage 0 = 0.9031 | Avg Coverage 1 = 0.9002 | Avg p_val = 0.3407 | min p_val = 0.0030
+======== Done =========
+nursery
+AdversarialDebiasing
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.285714
+Group 0 : Average length: 1.222826
+Group 1 : Percentage in the range (expecting 90.00): 90.720859
+Group 1 : Average length: 1.152607
+Init Loss = 0.6364346
+Final Loss = 0.35073364
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 1
+Coverage 0 = 0.8928571428571429
+Coverage 1 = 0.9072085889570553
+Length 0 = 1.2228260869565217
+Length 1 = 1.1526073619631902
+Prediction Error = 0.1747685185185185
+p_val = 0.000999000999000999
+AdversarialDebiasing_linear_model
+Num experiments 01 | Avg. Pred Err = 0.1748 | Avg Length 0 = 1.2228 | Avg Length 1 = 1.1526 | Avg Coverage 0 = 0.8929 | Avg Coverage 1 = 0.9072 | Avg p_val = 0.0010 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.047393
+Group 0 : Average length: 1.326224
+Group 1 : Percentage in the range (expecting 90.00): 91.704374
+Group 1 : Average length: 1.340121
+Init Loss = 0.8199291
+Final Loss = 0.2948598
+Fair dummies test (classification score), p-value: 0.37362637362637363
+experiment = 2
+Coverage 0 = 0.9004739336492891
+Coverage 1 = 0.9170437405731523
+Length 0 = 1.3262243285939967
+Length 1 = 1.3401206636500753
+Prediction Error = 0.24189814814814814
+p_val = 0.37362637362637363
+AdversarialDebiasing_linear_model
+Num experiments 02 | Avg. Pred Err = 0.2083 | Avg Length 0 = 1.2745 | Avg Length 1 = 1.2464 | Avg Coverage 0 = 0.8967 | Avg Coverage 1 = 0.9121 | Avg p_val = 0.1873 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.781874
+Group 0 : Average length: 1.705069
+Group 1 : Percentage in the range (expecting 90.00): 91.937984
+Group 1 : Average length: 1.705426
+Init Loss = 0.69997525
+Final Loss = 0.45318264
+Fair dummies test (classification score), p-value: 0.28771228771228774
+experiment = 3
+Coverage 0 = 0.9178187403993856
+Coverage 1 = 0.9193798449612403
+Length 0 = 1.705069124423963
+Length 1 = 1.7054263565891472
+Prediction Error = 0.34375
+p_val = 0.28771228771228774
+AdversarialDebiasing_linear_model
+Num experiments 03 | Avg. Pred Err = 0.2535 | Avg Length 0 = 1.4180 | Avg Length 1 = 1.3994 | Avg Coverage 0 = 0.9037 | Avg Coverage 1 = 0.9145 | Avg p_val = 0.2208 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.435459
+Group 0 : Average length: 1.578538
+Group 1 : Percentage in the range (expecting 90.00): 90.658499
+Group 1 : Average length: 1.737366
+Init Loss = 0.7161152
+Final Loss = 0.4727159
+Fair dummies test (classification score), p-value: 0.14585414585414586
+experiment = 4
+Coverage 0 = 0.9043545878693624
+Coverage 1 = 0.9065849923430321
+Length 0 = 1.578538102643857
+Length 1 = 1.737366003062787
+Prediction Error = 0.3182870370370371
+p_val = 0.14585414585414586
+AdversarialDebiasing_linear_model
+Num experiments 04 | Avg. Pred Err = 0.2697 | Avg Length 0 = 1.4582 | Avg Length 1 = 1.4839 | Avg Coverage 0 = 0.9039 | Avg Coverage 1 = 0.9126 | Avg p_val = 0.2020 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.622598
+Group 0 : Average length: 1.458878
+Group 1 : Percentage in the range (expecting 90.00): 91.402014
+Group 1 : Average length: 1.513555
+Init Loss = 0.6962146
+Final Loss = 0.40564644
+Fair dummies test (classification score), p-value: 0.8801198801198801
+experiment = 5
+Coverage 0 = 0.9062259800153728
+Coverage 1 = 0.9140201394268009
+Length 0 = 1.4588777863182167
+Length 1 = 1.5135553834237025
+Prediction Error = 0.23456790123456794
+p_val = 0.8801198801198801
+AdversarialDebiasing_linear_model
+Num experiments 05 | Avg. Pred Err = 0.2627 | Avg Length 0 = 1.4583 | Avg Length 1 = 1.4898 | Avg Coverage 0 = 0.9043 | Avg Coverage 1 = 0.9128 | Avg p_val = 0.3377 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 87.758225
+Group 0 : Average length: 1.432288
+Group 1 : Percentage in the range (expecting 90.00): 91.284047
+Group 1 : Average length: 1.495720
+Init Loss = 0.7821138
+Final Loss = 0.4103356
+Fair dummies test (classification score), p-value: 0.44255744255744256
+experiment = 6
+Coverage 0 = 0.8775822494261668
+Coverage 1 = 0.91284046692607
+Length 0 = 1.4322876817138486
+Length 1 = 1.4957198443579767
+Prediction Error = 0.2662037037037037
+p_val = 0.44255744255744256
+AdversarialDebiasing_linear_model
+Num experiments 06 | Avg. Pred Err = 0.2632 | Avg Length 0 = 1.4540 | Avg Length 1 = 1.4908 | Avg Coverage 0 = 0.8999 | Avg Coverage 1 = 0.9128 | Avg p_val = 0.3551 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 87.810384
+Group 0 : Average length: 1.379985
+Group 1 : Percentage in the range (expecting 90.00): 90.577989
+Group 1 : Average length: 1.347585
+Init Loss = 0.69426376
+Final Loss = 0.40539476
+Fair dummies test (classification score), p-value: 0.002997002997002997
+experiment = 7
+Coverage 0 = 0.8781038374717833
+Coverage 1 = 0.9057798891528107
+Length 0 = 1.3799849510910458
+Length 1 = 1.3475851148060174
+Prediction Error = 0.22376543209876543
+p_val = 0.002997002997002997
+AdversarialDebiasing_linear_model
+Num experiments 07 | Avg. Pred Err = 0.2576 | Avg Length 0 = 1.4434 | Avg Length 1 = 1.4703 | Avg Coverage 0 = 0.8968 | Avg Coverage 1 = 0.9118 | Avg p_val = 0.3048 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.504287
+Group 0 : Average length: 1.345284
+Group 1 : Percentage in the range (expecting 90.00): 90.679908
+Group 1 : Average length: 1.242170
+Init Loss = 0.76314235
+Final Loss = 0.3956655
+Fair dummies test (classification score), p-value: 0.13286713286713286
+experiment = 8
+Coverage 0 = 0.9150428682774747
+Coverage 1 = 0.9067990832696715
+Length 0 = 1.3452844894777864
+Length 1 = 1.2421695951107716
+Prediction Error = 0.20177469135802473
+p_val = 0.13286713286713286
+AdversarialDebiasing_linear_model
+Num experiments 08 | Avg. Pred Err = 0.2506 | Avg Length 0 = 1.4311 | Avg Length 1 = 1.4418 | Avg Coverage 0 = 0.8991 | Avg Coverage 1 = 0.9112 | Avg p_val = 0.2833 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.775557
+Group 0 : Average length: 1.357417
+Group 1 : Percentage in the range (expecting 90.00): 87.916344
+Group 1 : Average length: 1.250968
+Init Loss = 0.642707
+Final Loss = 0.39849636
+Fair dummies test (classification score), p-value: 0.04695304695304695
+experiment = 9
+Coverage 0 = 0.9177555726364335
+Coverage 1 = 0.879163439194423
+Length 0 = 1.3574173712528823
+Length 1 = 1.2509682416731216
+Prediction Error = 0.20293209876543206
+p_val = 0.04695304695304695
+AdversarialDebiasing_linear_model
+Num experiments 09 | Avg. Pred Err = 0.2453 | Avg Length 0 = 1.4229 | Avg Length 1 = 1.4206 | Avg Coverage 0 = 0.9011 | Avg Coverage 1 = 0.9076 | Avg p_val = 0.2571 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.777439
+Group 0 : Average length: 1.561738
+Group 1 : Percentage in the range (expecting 90.00): 88.046875
+Group 1 : Average length: 1.422656
+Init Loss = 0.62604374
+Final Loss = 0.45241702
+Fair dummies test (classification score), p-value: 0.027972027972027972
+experiment = 10
+Coverage 0 = 0.9077743902439024
+Coverage 1 = 0.88046875
+Length 0 = 1.5617378048780488
+Length 1 = 1.42265625
+Prediction Error = 0.27854938271604934
+p_val = 0.027972027972027972
+AdversarialDebiasing_linear_model
+Num experiments 10 | Avg. Pred Err = 0.2486 | Avg Length 0 = 1.4368 | Avg Length 1 = 1.4208 | Avg Coverage 0 = 0.9018 | Avg Coverage 1 = 0.9049 | Avg p_val = 0.2342 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.354938
+Group 0 : Average length: 1.467593
+Group 1 : Percentage in the range (expecting 90.00): 90.817901
+Group 1 : Average length: 1.358796
+Init Loss = 0.69469625
+Final Loss = 0.38024867
+Fair dummies test (classification score), p-value: 0.15384615384615385
+experiment = 11
+Coverage 0 = 0.9035493827160493
+Coverage 1 = 0.908179012345679
+Length 0 = 1.4675925925925926
+Length 1 = 1.3587962962962963
+Prediction Error = 0.22878086419753085
+p_val = 0.15384615384615385
+AdversarialDebiasing_linear_model
+Num experiments 11 | Avg. Pred Err = 0.2468 | Avg Length 0 = 1.4396 | Avg Length 1 = 1.4152 | Avg Coverage 0 = 0.9020 | Avg Coverage 1 = 0.9052 | Avg p_val = 0.2269 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.992302
+Group 0 : Average length: 1.319477
+Group 1 : Percentage in the range (expecting 90.00): 91.569992
+Group 1 : Average length: 1.327146
+Init Loss = 0.6964921
+Final Loss = 0.39625117
+Fair dummies test (classification score), p-value: 0.008991008991008992
+experiment = 12
+Coverage 0 = 0.8999230177059276
+Coverage 1 = 0.9156999226604795
+Length 0 = 1.3194765204003078
+Length 1 = 1.3271461716937354
+Prediction Error = 0.22029320987654322
+p_val = 0.008991008991008992
+AdversarialDebiasing_linear_model
+Num experiments 12 | Avg. Pred Err = 0.2446 | Avg Length 0 = 1.4296 | Avg Length 1 = 1.4078 | Avg Coverage 0 = 0.9018 | Avg Coverage 1 = 0.9061 | Avg p_val = 0.2087 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.363232
+Group 0 : Average length: 1.481838
+Group 1 : Percentage in the range (expecting 90.00): 90.506838
+Group 1 : Average length: 1.481094
+Init Loss = 0.6916106
+Final Loss = 0.46559754
+Fair dummies test (classification score), p-value: 0.5234765234765235
+experiment = 13
+Coverage 0 = 0.9036323202372127
+Coverage 1 = 0.9050683829444891
+Length 0 = 1.4818383988139363
+Length 1 = 1.4810941271118263
+Prediction Error = 0.2924382716049383
+p_val = 0.5234765234765235
+AdversarialDebiasing_linear_model
+Num experiments 13 | Avg. Pred Err = 0.2483 | Avg Length 0 = 1.4336 | Avg Length 1 = 1.4135 | Avg Coverage 0 = 0.9019 | Avg Coverage 1 = 0.9060 | Avg p_val = 0.2329 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.266409
+Group 0 : Average length: 1.521236
+Group 1 : Percentage in the range (expecting 90.00): 87.895143
+Group 1 : Average length: 1.581342
+Init Loss = 0.61609733
+Final Loss = 0.47404706
+Fair dummies test (classification score), p-value: 0.12387612387612387
+experiment = 14
+Coverage 0 = 0.8926640926640926
+Coverage 1 = 0.8789514263685428
+Length 0 = 1.5212355212355213
+Length 1 = 1.5813415574402467
+Prediction Error = 0.3233024691358025
+p_val = 0.12387612387612387
+AdversarialDebiasing_linear_model
+Num experiments 14 | Avg. Pred Err = 0.2537 | Avg Length 0 = 1.4399 | Avg Length 1 = 1.4255 | Avg Coverage 0 = 0.9013 | Avg Coverage 1 = 0.9041 | Avg p_val = 0.2251 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.121989
+Group 0 : Average length: 1.233100
+Group 1 : Percentage in the range (expecting 90.00): 89.348659
+Group 1 : Average length: 1.190805
+Init Loss = 0.661469
+Final Loss = 0.37423363
+Fair dummies test (classification score), p-value: 0.000999000999000999
+experiment = 15
+Coverage 0 = 0.8912198912198912
+Coverage 1 = 0.8934865900383142
+Length 0 = 1.2331002331002332
+Length 1 = 1.1908045977011494
+Prediction Error = 0.18479938271604934
+p_val = 0.000999000999000999
+AdversarialDebiasing_linear_model
+Num experiments 15 | Avg. Pred Err = 0.2491 | Avg Length 0 = 1.4261 | Avg Length 1 = 1.4098 | Avg Coverage 0 = 0.9006 | Avg Coverage 1 = 0.9034 | Avg p_val = 0.2102 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.011858
+Group 0 : Average length: 1.422925
+Group 1 : Percentage in the range (expecting 90.00): 90.203466
+Group 1 : Average length: 1.532781
+Init Loss = 0.6540814
+Final Loss = 0.44179535
+Fair dummies test (classification score), p-value: 0.001998001998001998
+experiment = 16
+Coverage 0 = 0.8901185770750988
+Coverage 1 = 0.9020346646571213
+Length 0 = 1.4229249011857708
+Length 1 = 1.5327807083647325
+Prediction Error = 0.2866512345679012
+p_val = 0.001998001998001998
+AdversarialDebiasing_linear_model
+Num experiments 16 | Avg. Pred Err = 0.2514 | Avg Length 0 = 1.4259 | Avg Length 1 = 1.4175 | Avg Coverage 0 = 0.8999 | Avg Coverage 1 = 0.9033 | Avg p_val = 0.1972 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.083013
+Group 0 : Average length: 1.285165
+Group 1 : Percentage in the range (expecting 90.00): 90.007746
+Group 1 : Average length: 1.146398
+Init Loss = 0.63973254
+Final Loss = 0.33932745
+Fair dummies test (classification score), p-value: 0.006993006993006993
+experiment = 17
+Coverage 0 = 0.9208301306687163
+Coverage 1 = 0.9000774593338497
+Length 0 = 1.2851652574942352
+Length 1 = 1.1463981409759876
+Prediction Error = 0.17785493827160492
+p_val = 0.006993006993006993
+AdversarialDebiasing_linear_model
+Num experiments 17 | Avg. Pred Err = 0.2471 | Avg Length 0 = 1.4176 | Avg Length 1 = 1.4016 | Avg Coverage 0 = 0.9012 | Avg Coverage 1 = 0.9031 | Avg p_val = 0.1860 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.045977
+Group 0 : Average length: 1.531801
+Group 1 : Percentage in the range (expecting 90.00): 91.608392
+Group 1 : Average length: 1.506605
+Init Loss = 0.71809775
+Final Loss = 0.39405036
+Fair dummies test (classification score), p-value: 0.004995004995004995
+experiment = 18
+Coverage 0 = 0.8804597701149425
+Coverage 1 = 0.916083916083916
+Length 0 = 1.531800766283525
+Length 1 = 1.5066045066045066
+Prediction Error = 0.2758487654320988
+p_val = 0.004995004995004995
+AdversarialDebiasing_linear_model
+Num experiments 18 | Avg. Pred Err = 0.2487 | Avg Length 0 = 1.4240 | Avg Length 1 = 1.4074 | Avg Coverage 0 = 0.9000 | Avg Coverage 1 = 0.9038 | Avg p_val = 0.1759 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.625000
+Group 0 : Average length: 1.656250
+Group 1 : Percentage in the range (expecting 90.00): 89.634146
+Group 1 : Average length: 1.655488
+Init Loss = 0.73773974
+Final Loss = 0.40094495
+Fair dummies test (classification score), p-value: 0.2937062937062937
+experiment = 19
+Coverage 0 = 0.90625
+Coverage 1 = 0.8963414634146342
+Length 0 = 1.65625
+Length 1 = 1.6554878048780488
+Prediction Error = 0.34104938271604934
+p_val = 0.2937062937062937
+AdversarialDebiasing_linear_model
+Num experiments 19 | Avg. Pred Err = 0.2536 | Avg Length 0 = 1.4362 | Avg Length 1 = 1.4205 | Avg Coverage 0 = 0.9003 | Avg Coverage 1 = 0.9034 | Avg p_val = 0.1821 | min p_val = 0.0010
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.384615
+Group 0 : Average length: 1.303077
+Group 1 : Percentage in the range (expecting 90.00): 89.164087
+Group 1 : Average length: 1.306502
+Init Loss = 0.762671
+Final Loss = 0.35515037
+Fair dummies test (classification score), p-value: 0.47352647352647353
+experiment = 20
+Coverage 0 = 0.9038461538461539
+Coverage 1 = 0.891640866873065
+Length 0 = 1.303076923076923
+Length 1 = 1.306501547987616
+Prediction Error = 0.22839506172839508
+p_val = 0.47352647352647353
+AdversarialDebiasing_linear_model
+Num experiments 20 | Avg. Pred Err = 0.2523 | Avg Length 0 = 1.4295 | Avg Length 1 = 1.4148 | Avg Coverage 0 = 0.9005 | Avg Coverage 1 = 0.9028 | Avg p_val = 0.1967 | min p_val = 0.0010
+======== Done =========
+nursery
+FairDummies
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.198758
+Group 0 : Average length: 1.581522
+Group 1 : Percentage in the range (expecting 90.00): 89.570552
+Group 1 : Average length: 1.691718
+Init Loss = 0.730928
+Final Loss = 0.53577775
+Fair dummies test (classification score), p-value: 0.1838161838161838
+experiment = 1
+Coverage 0 = 0.8819875776397516
+Coverage 1 = 0.8957055214723927
+Length 0 = 1.5815217391304348
+Length 1 = 1.6917177914110428
+Prediction Error = 0.3067129629629629
+p_val = 0.1838161838161838
+FairDummies_linear_model
+Num experiments 01 | Avg. Pred Err = 0.3067 | Avg Length 0 = 1.5815 | Avg Length 1 = 1.6917 | Avg Coverage 0 = 0.8820 | Avg Coverage 1 = 0.8957 | Avg p_val = 0.1838 | min p_val = 0.1838
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.178515
+Group 0 : Average length: 1.728278
+Group 1 : Percentage in the range (expecting 90.00): 90.497738
+Group 1 : Average length: 1.788839
+Init Loss = 0.70411706
+Final Loss = 0.53632206
+Fair dummies test (classification score), p-value: 0.1758241758241758
+experiment = 2
+Coverage 0 = 0.891785150078989
+Coverage 1 = 0.9049773755656109
+Length 0 = 1.7282780410742495
+Length 1 = 1.7888386123680242
+Prediction Error = 0.2885802469135802
+p_val = 0.1758241758241758
+FairDummies_linear_model
+Num experiments 02 | Avg. Pred Err = 0.2976 | Avg Length 0 = 1.6549 | Avg Length 1 = 1.7403 | Avg Coverage 0 = 0.8869 | Avg Coverage 1 = 0.9003 | Avg p_val = 0.1798 | min p_val = 0.1758
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.858679
+Group 0 : Average length: 1.602151
+Group 1 : Percentage in the range (expecting 90.00): 89.069767
+Group 1 : Average length: 1.458140
+Init Loss = 0.68513054
+Final Loss = 0.4004635
+Fair dummies test (classification score), p-value: 0.13786213786213786
+experiment = 3
+Coverage 0 = 0.9185867895545314
+Coverage 1 = 0.8906976744186047
+Length 0 = 1.6021505376344085
+Length 1 = 1.458139534883721
+Prediction Error = 0.23263888888888884
+p_val = 0.13786213786213786
+FairDummies_linear_model
+Num experiments 03 | Avg. Pred Err = 0.2760 | Avg Length 0 = 1.6373 | Avg Length 1 = 1.6462 | Avg Coverage 0 = 0.8975 | Avg Coverage 1 = 0.8971 | Avg p_val = 0.1658 | min p_val = 0.1379
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.269051
+Group 0 : Average length: 2.448678
+Group 1 : Percentage in the range (expecting 90.00): 90.275651
+Group 1 : Average length: 2.276417
+Init Loss = 0.71280986
+Final Loss = 0.4850781
+Fair dummies test (classification score), p-value: 0.38961038961038963
+experiment = 4
+Coverage 0 = 0.8926905132192846
+Coverage 1 = 0.9027565084226646
+Length 0 = 2.448678071539658
+Length 1 = 2.276416539050536
+Prediction Error = 0.3915895061728395
+p_val = 0.38961038961038963
+FairDummies_linear_model
+Num experiments 04 | Avg. Pred Err = 0.3049 | Avg Length 0 = 1.8402 | Avg Length 1 = 1.8038 | Avg Coverage 0 = 0.8963 | Avg Coverage 1 = 0.8985 | Avg p_val = 0.2218 | min p_val = 0.1379
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.546503
+Group 0 : Average length: 1.521138
+Group 1 : Percentage in the range (expecting 90.00): 88.071263
+Group 1 : Average length: 1.568552
+Init Loss = 0.7709593
+Final Loss = 0.5503633
+Fair dummies test (classification score), p-value: 0.004995004995004995
+experiment = 5
+Coverage 0 = 0.8954650269023828
+Coverage 1 = 0.8807126258714175
+Length 0 = 1.5211375864719447
+Length 1 = 1.56855151045701
+Prediction Error = 0.29668209876543206
+p_val = 0.004995004995004995
+FairDummies_linear_model
+Num experiments 05 | Avg. Pred Err = 0.3032 | Avg Length 0 = 1.7764 | Avg Length 1 = 1.7567 | Avg Coverage 0 = 0.8961 | Avg Coverage 1 = 0.8950 | Avg p_val = 0.1784 | min p_val = 0.0050
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.971691
+Group 0 : Average length: 1.457536
+Group 1 : Percentage in the range (expecting 90.00): 88.249027
+Group 1 : Average length: 1.350973
+Init Loss = 0.7351129
+Final Loss = 0.45490384
+Fair dummies test (classification score), p-value: 0.5224775224775224
+experiment = 6
+Coverage 0 = 0.909716908951798
+Coverage 1 = 0.8824902723735408
+Length 0 = 1.4575363427697017
+Length 1 = 1.3509727626459145
+Prediction Error = 0.24305555555555558
+p_val = 0.5224775224775224
+FairDummies_linear_model
+Num experiments 06 | Avg. Pred Err = 0.2932 | Avg Length 0 = 1.7232 | Avg Length 1 = 1.6891 | Avg Coverage 0 = 0.8984 | Avg Coverage 1 = 0.8929 | Avg p_val = 0.2358 | min p_val = 0.0050
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.863807
+Group 0 : Average length: 1.620015
+Group 1 : Percentage in the range (expecting 90.00): 89.231987
+Group 1 : Average length: 1.399050
+Init Loss = 0.7513793
+Final Loss = 0.44691393
+Fair dummies test (classification score), p-value: 0.06493506493506493
+experiment = 7
+Coverage 0 = 0.8886380737396539
+Coverage 1 = 0.8923198733174981
+Length 0 = 1.6200150489089542
+Length 1 = 1.3990498812351544
+Prediction Error = 0.2542438271604939
+p_val = 0.06493506493506493
+FairDummies_linear_model
+Num experiments 07 | Avg. Pred Err = 0.2876 | Avg Length 0 = 1.7085 | Avg Length 1 = 1.6477 | Avg Coverage 0 = 0.8970 | Avg Coverage 1 = 0.8928 | Avg p_val = 0.2114 | min p_val = 0.0050
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.660171
+Group 0 : Average length: 1.785659
+Group 1 : Percentage in the range (expecting 90.00): 90.450726
+Group 1 : Average length: 1.683728
+Init Loss = 0.76075494
+Final Loss = 0.536822
+Fair dummies test (classification score), p-value: 0.022977022977022976
+experiment = 8
+Coverage 0 = 0.916601714731099
+Coverage 1 = 0.904507257448434
+Length 0 = 1.7856586126266563
+Length 1 = 1.6837280366692131
+Prediction Error = 0.30594135802469136
+p_val = 0.022977022977022976
+FairDummies_linear_model
+Num experiments 08 | Avg. Pred Err = 0.2899 | Avg Length 0 = 1.7181 | Avg Length 1 = 1.6522 | Avg Coverage 0 = 0.8994 | Avg Coverage 1 = 0.8943 | Avg p_val = 0.1878 | min p_val = 0.0050
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.083782
+Group 0 : Average length: 2.891622
+Group 1 : Percentage in the range (expecting 90.00): 87.993803
+Group 1 : Average length: 2.484121
+Init Loss = 0.7021646
+Final Loss = 0.6770853
+Fair dummies test (classification score), p-value: 0.04395604395604395
+experiment = 9
+Coverage 0 = 0.9108378170637971
+Coverage 1 = 0.8799380325329202
+Length 0 = 2.891621829362029
+Length 1 = 2.4841208365608054
+Prediction Error = 0.466820987654321
+p_val = 0.04395604395604395
+FairDummies_linear_model
+Num experiments 09 | Avg. Pred Err = 0.3096 | Avg Length 0 = 1.8485 | Avg Length 1 = 1.7446 | Avg Coverage 0 = 0.9007 | Avg Coverage 1 = 0.8927 | Avg p_val = 0.1718 | min p_val = 0.0050
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.539634
+Group 0 : Average length: 1.845274
+Group 1 : Percentage in the range (expecting 90.00): 91.328125
+Group 1 : Average length: 1.771094
+Init Loss = 0.7118244
+Final Loss = 0.449755
+Fair dummies test (classification score), p-value: 0.942057942057942
+experiment = 10
+Coverage 0 = 0.9153963414634146
+Coverage 1 = 0.91328125
+Length 0 = 1.8452743902439024
+Length 1 = 1.77109375
+Prediction Error = 0.29359567901234573
+p_val = 0.942057942057942
+FairDummies_linear_model
+Num experiments 10 | Avg. Pred Err = 0.3080 | Avg Length 0 = 1.8482 | Avg Length 1 = 1.7473 | Avg Coverage 0 = 0.9022 | Avg Coverage 1 = 0.8947 | Avg p_val = 0.2489 | min p_val = 0.0050
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.506173
+Group 0 : Average length: 1.279321
+Group 1 : Percentage in the range (expecting 90.00): 91.358025
+Group 1 : Average length: 1.202932
+Init Loss = 0.6911658
+Final Loss = 0.3659383
+Fair dummies test (classification score), p-value: 0.001998001998001998
+experiment = 11
+Coverage 0 = 0.8950617283950617
+Coverage 1 = 0.9135802469135802
+Length 0 = 1.279320987654321
+Length 1 = 1.2029320987654322
+Prediction Error = 0.18904320987654322
+p_val = 0.001998001998001998
+FairDummies_linear_model
+Num experiments 11 | Avg. Pred Err = 0.2972 | Avg Length 0 = 1.7965 | Avg Length 1 = 1.6978 | Avg Coverage 0 = 0.9015 | Avg Coverage 1 = 0.8965 | Avg p_val = 0.2264 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.377983
+Group 0 : Average length: 1.505774
+Group 1 : Percentage in the range (expecting 90.00): 91.569992
+Group 1 : Average length: 1.510441
+Init Loss = 0.73627764
+Final Loss = 0.42347205
+Fair dummies test (classification score), p-value: 0.23076923076923078
+experiment = 12
+Coverage 0 = 0.9137798306389531
+Coverage 1 = 0.9156999226604795
+Length 0 = 1.5057736720554273
+Length 1 = 1.5104408352668213
+Prediction Error = 0.24151234567901236
+p_val = 0.23076923076923078
+FairDummies_linear_model
+Num experiments 12 | Avg. Pred Err = 0.2925 | Avg Length 0 = 1.7722 | Avg Length 1 = 1.6822 | Avg Coverage 0 = 0.9025 | Avg Coverage 1 = 0.8981 | Avg p_val = 0.2268 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.585619
+Group 0 : Average length: 1.977020
+Group 1 : Percentage in the range (expecting 90.00): 89.460981
+Group 1 : Average length: 1.977474
+Init Loss = 0.7134309
+Final Loss = 0.5901286
+Fair dummies test (classification score), p-value: 0.9600399600399601
+experiment = 13
+Coverage 0 = 0.9058561897702001
+Coverage 1 = 0.8946098149637972
+Length 0 = 1.9770200148257968
+Length 1 = 1.9774738535800482
+Prediction Error = 0.376929012345679
+p_val = 0.9600399600399601
+FairDummies_linear_model
+Num experiments 13 | Avg. Pred Err = 0.2990 | Avg Length 0 = 1.7880 | Avg Length 1 = 1.7049 | Avg Coverage 0 = 0.9028 | Avg Coverage 1 = 0.8978 | Avg p_val = 0.2832 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.343629
+Group 0 : Average length: 1.797683
+Group 1 : Percentage in the range (expecting 90.00): 91.210486
+Group 1 : Average length: 1.686199
+Init Loss = 0.6517488
+Final Loss = 0.6123404
+Fair dummies test (classification score), p-value: 0.008991008991008992
+experiment = 14
+Coverage 0 = 0.8934362934362934
+Coverage 1 = 0.9121048573631457
+Length 0 = 1.7976833976833977
+Length 1 = 1.6861989205859675
+Prediction Error = 0.3082561728395061
+p_val = 0.008991008991008992
+FairDummies_linear_model
+Num experiments 14 | Avg. Pred Err = 0.2997 | Avg Length 0 = 1.7887 | Avg Length 1 = 1.7035 | Avg Coverage 0 = 0.9021 | Avg Coverage 1 = 0.8988 | Avg p_val = 0.2636 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 87.801088
+Group 0 : Average length: 1.866356
+Group 1 : Percentage in the range (expecting 90.00): 89.348659
+Group 1 : Average length: 1.961686
+Init Loss = 0.7648153
+Final Loss = 0.49722552
+Fair dummies test (classification score), p-value: 0.2957042957042957
+experiment = 15
+Coverage 0 = 0.878010878010878
+Coverage 1 = 0.8934865900383142
+Length 0 = 1.8663558663558664
+Length 1 = 1.9616858237547892
+Prediction Error = 0.32638888888888884
+p_val = 0.2957042957042957
+FairDummies_linear_model
+Num experiments 15 | Avg. Pred Err = 0.3015 | Avg Length 0 = 1.7939 | Avg Length 1 = 1.7208 | Avg Coverage 0 = 0.9005 | Avg Coverage 1 = 0.8985 | Avg p_val = 0.2657 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.644269
+Group 0 : Average length: 2.170751
+Group 1 : Percentage in the range (expecting 90.00): 90.580256
+Group 1 : Average length: 2.311228
+Init Loss = 0.67662144
+Final Loss = 0.5373341
+Fair dummies test (classification score), p-value: 0.3026973026973027
+experiment = 16
+Coverage 0 = 0.8964426877470356
+Coverage 1 = 0.905802562170309
+Length 0 = 2.1707509881422924
+Length 1 = 2.311228334589299
+Prediction Error = 0.3912037037037037
+p_val = 0.3026973026973027
+FairDummies_linear_model
+Num experiments 16 | Avg. Pred Err = 0.3071 | Avg Length 0 = 1.8174 | Avg Length 1 = 1.7577 | Avg Coverage 0 = 0.9003 | Avg Coverage 1 = 0.8989 | Avg p_val = 0.2680 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.775557
+Group 0 : Average length: 1.400461
+Group 1 : Percentage in the range (expecting 90.00): 90.472502
+Group 1 : Average length: 1.316034
+Init Loss = 0.6649199
+Final Loss = 0.40981755
+Fair dummies test (classification score), p-value: 0.996003996003996
+experiment = 17
+Coverage 0 = 0.9177555726364335
+Coverage 1 = 0.9047250193648335
+Length 0 = 1.4004611837048424
+Length 1 = 1.3160340821068939
+Prediction Error = 0.22337962962962965
+p_val = 0.996003996003996
+FairDummies_linear_model
+Num experiments 17 | Avg. Pred Err = 0.3022 | Avg Length 0 = 1.7929 | Avg Length 1 = 1.7317 | Avg Coverage 0 = 0.9013 | Avg Coverage 1 = 0.8993 | Avg p_val = 0.3109 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.034483
+Group 0 : Average length: 2.003831
+Group 1 : Percentage in the range (expecting 90.00): 88.422688
+Group 1 : Average length: 1.968143
+Init Loss = 0.7105459
+Final Loss = 0.6328061
+Fair dummies test (classification score), p-value: 0.008991008991008992
+experiment = 18
+Coverage 0 = 0.9103448275862069
+Coverage 1 = 0.8842268842268842
+Length 0 = 2.003831417624521
+Length 1 = 1.968142968142968
+Prediction Error = 0.3495370370370371
+p_val = 0.008991008991008992
+FairDummies_linear_model
+Num experiments 18 | Avg. Pred Err = 0.3048 | Avg Length 0 = 1.8046 | Avg Length 1 = 1.7448 | Avg Coverage 0 = 0.9018 | Avg Coverage 1 = 0.8984 | Avg p_val = 0.2941 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.828125
+Group 0 : Average length: 2.009375
+Group 1 : Percentage in the range (expecting 90.00): 89.939024
+Group 1 : Average length: 2.088415
+Init Loss = 0.6907428
+Final Loss = 0.52980494
+Fair dummies test (classification score), p-value: 0.4775224775224775
+experiment = 19
+Coverage 0 = 0.88828125
+Coverage 1 = 0.899390243902439
+Length 0 = 2.009375
+Length 1 = 2.0884146341463414
+Prediction Error = 0.36111111111111116
+p_val = 0.4775224775224775
+FairDummies_linear_model
+Num experiments 19 | Avg. Pred Err = 0.3077 | Avg Length 0 = 1.8154 | Avg Length 1 = 1.7629 | Avg Coverage 0 = 0.9011 | Avg Coverage 1 = 0.8985 | Avg p_val = 0.3037 | min p_val = 0.0020
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.461538
+Group 0 : Average length: 1.563077
+Group 1 : Percentage in the range (expecting 90.00): 88.854489
+Group 1 : Average length: 1.297988
+Init Loss = 0.74539024
+Final Loss = 0.41654563
+Fair dummies test (classification score), p-value: 0.6423576423576424
+experiment = 20
+Coverage 0 = 0.9146153846153846
+Coverage 1 = 0.8885448916408669
+Length 0 = 1.563076923076923
+Length 1 = 1.2979876160990713
+Prediction Error = 0.22492283950617287
+p_val = 0.6423576423576424
+FairDummies_linear_model
+Num experiments 20 | Avg. Pred Err = 0.3036 | Avg Length 0 = 1.8028 | Avg Length 1 = 1.7397 | Avg Coverage 0 = 0.9018 | Avg Coverage 1 = 0.8980 | Avg p_val = 0.3207 | min p_val = 0.0020
+======== Done =========
+nursery
+FairDummies
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 87.965839
+Group 0 : Average length: 1.315217
+Group 1 : Percentage in the range (expecting 90.00): 88.650307
+Group 1 : Average length: 1.305215
+Init Loss = 0.6748977
+Final Loss = 0.44331586
+Fair dummies test (classification score), p-value: 0.2707292707292707
+experiment = 1
+Coverage 0 = 0.8796583850931677
+Coverage 1 = 0.8865030674846626
+Length 0 = 1.315217391304348
+Length 1 = 1.3052147239263803
+Prediction Error = 0.23379629629629628
+p_val = 0.2707292707292707
+FairDummies_deep_model
+Num experiments 01 | Avg. Pred Err = 0.2338 | Avg Length 0 = 1.3152 | Avg Length 1 = 1.3052 | Avg Coverage 0 = 0.8797 | Avg Coverage 1 = 0.8865 | Avg p_val = 0.2707 | min p_val = 0.2707
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.230648
+Group 0 : Average length: 1.436809
+Group 1 : Percentage in the range (expecting 90.00): 91.025641
+Group 1 : Average length: 1.436652
+Init Loss = 0.7189855
+Final Loss = 0.45264712
+Fair dummies test (classification score), p-value: 0.5844155844155844
+experiment = 2
+Coverage 0 = 0.882306477093207
+Coverage 1 = 0.9102564102564102
+Length 0 = 1.4368088467614535
+Length 1 = 1.4366515837104072
+Prediction Error = 0.2901234567901234
+p_val = 0.5844155844155844
+FairDummies_deep_model
+Num experiments 02 | Avg. Pred Err = 0.2620 | Avg Length 0 = 1.3760 | Avg Length 1 = 1.3709 | Avg Coverage 0 = 0.8810 | Avg Coverage 1 = 0.8984 | Avg p_val = 0.4276 | min p_val = 0.2707
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.013825
+Group 0 : Average length: 1.423195
+Group 1 : Percentage in the range (expecting 90.00): 91.162791
+Group 1 : Average length: 1.412403
+Init Loss = 0.73378396
+Final Loss = 0.4515047
+Fair dummies test (classification score), p-value: 0.36563436563436563
+experiment = 3
+Coverage 0 = 0.9101382488479263
+Coverage 1 = 0.9116279069767442
+Length 0 = 1.423195084485407
+Length 1 = 1.4124031007751938
+Prediction Error = 0.2542438271604939
+p_val = 0.36563436563436563
+FairDummies_deep_model
+Num experiments 03 | Avg. Pred Err = 0.2594 | Avg Length 0 = 1.3917 | Avg Length 1 = 1.3848 | Avg Coverage 0 = 0.8907 | Avg Coverage 1 = 0.9028 | Avg p_val = 0.4069 | min p_val = 0.2707
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.046656
+Group 0 : Average length: 1.373250
+Group 1 : Percentage in the range (expecting 90.00): 90.964778
+Group 1 : Average length: 1.316998
+Init Loss = 0.6613652
+Final Loss = 0.45627537
+Fair dummies test (classification score), p-value: 0.05994005994005994
+experiment = 4
+Coverage 0 = 0.9004665629860031
+Coverage 1 = 0.9096477794793262
+Length 0 = 1.3732503888024883
+Length 1 = 1.3169984686064318
+Prediction Error = 0.20524691358024694
+p_val = 0.05994005994005994
+FairDummies_deep_model
+Num experiments 04 | Avg. Pred Err = 0.2459 | Avg Length 0 = 1.3871 | Avg Length 1 = 1.3678 | Avg Coverage 0 = 0.8931 | Avg Coverage 1 = 0.9045 | Avg p_val = 0.3202 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.468870
+Group 0 : Average length: 1.411991
+Group 1 : Percentage in the range (expecting 90.00): 91.324555
+Group 1 : Average length: 1.359411
+Init Loss = 0.6388149
+Final Loss = 0.4372998
+Fair dummies test (classification score), p-value: 0.24175824175824176
+experiment = 5
+Coverage 0 = 0.9046887009992314
+Coverage 1 = 0.9132455460883037
+Length 0 = 1.4119907763259032
+Length 1 = 1.359411309062742
+Prediction Error = 0.23109567901234573
+p_val = 0.24175824175824176
+FairDummies_deep_model
+Num experiments 05 | Avg. Pred Err = 0.2429 | Avg Length 0 = 1.3921 | Avg Length 1 = 1.3661 | Avg Coverage 0 = 0.8955 | Avg Coverage 1 = 0.9063 | Avg p_val = 0.3045 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.895180
+Group 0 : Average length: 1.482785
+Group 1 : Percentage in the range (expecting 90.00): 90.505837
+Group 1 : Average length: 1.456031
+Init Loss = 0.6680998
+Final Loss = 0.44809347
+Fair dummies test (classification score), p-value: 0.6983016983016983
+experiment = 6
+Coverage 0 = 0.9089517980107116
+Coverage 1 = 0.9050583657587549
+Length 0 = 1.4827850038255548
+Length 1 = 1.4560311284046692
+Prediction Error = 0.2939814814814815
+p_val = 0.6983016983016983
+FairDummies_deep_model
+Num experiments 06 | Avg. Pred Err = 0.2514 | Avg Length 0 = 1.4072 | Avg Length 1 = 1.3811 | Avg Coverage 0 = 0.8977 | Avg Coverage 1 = 0.9061 | Avg p_val = 0.3701 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.315275
+Group 0 : Average length: 1.420617
+Group 1 : Percentage in the range (expecting 90.00): 89.944576
+Group 1 : Average length: 1.361837
+Init Loss = 0.69596344
+Final Loss = 0.4454576
+Fair dummies test (classification score), p-value: 0.07292707292707293
+experiment = 7
+Coverage 0 = 0.8931527464258842
+Coverage 1 = 0.89944576405384
+Length 0 = 1.420617005267118
+Length 1 = 1.3618368962787015
+Prediction Error = 0.2534722222222222
+p_val = 0.07292707292707293
+FairDummies_deep_model
+Num experiments 07 | Avg. Pred Err = 0.2517 | Avg Length 0 = 1.4091 | Avg Length 1 = 1.3784 | Avg Coverage 0 = 0.8971 | Avg Coverage 1 = 0.9051 | Avg p_val = 0.3277 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 92.829306
+Group 0 : Average length: 1.480125
+Group 1 : Percentage in the range (expecting 90.00): 90.603514
+Group 1 : Average length: 1.439267
+Init Loss = 0.6852889
+Final Loss = 0.46516734
+Fair dummies test (classification score), p-value: 0.6883116883116883
+experiment = 8
+Coverage 0 = 0.9282930631332814
+Coverage 1 = 0.906035141329259
+Length 0 = 1.48012470771629
+Length 1 = 1.439266615737204
+Prediction Error = 0.28125
+p_val = 0.6883116883116883
+FairDummies_deep_model
+Num experiments 08 | Avg. Pred Err = 0.2554 | Avg Length 0 = 1.4180 | Avg Length 1 = 1.3860 | Avg Coverage 0 = 0.9010 | Avg Coverage 1 = 0.9052 | Avg p_val = 0.3728 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.775557
+Group 0 : Average length: 1.404304
+Group 1 : Percentage in the range (expecting 90.00): 89.388071
+Group 1 : Average length: 1.351665
+Init Loss = 0.6717953
+Final Loss = 0.4574076
+Fair dummies test (classification score), p-value: 0.0939060939060939
+experiment = 9
+Coverage 0 = 0.9177555726364335
+Coverage 1 = 0.8938807126258714
+Length 0 = 1.404304381245196
+Length 1 = 1.3516653756777692
+Prediction Error = 0.2573302469135802
+p_val = 0.0939060939060939
+FairDummies_deep_model
+Num experiments 09 | Avg. Pred Err = 0.2556 | Avg Length 0 = 1.4165 | Avg Length 1 = 1.3822 | Avg Coverage 0 = 0.9028 | Avg Coverage 1 = 0.9040 | Avg p_val = 0.3418 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 90.625000
+Group 0 : Average length: 1.477896
+Group 1 : Percentage in the range (expecting 90.00): 90.468750
+Group 1 : Average length: 1.425000
+Init Loss = 0.78827167
+Final Loss = 0.44788337
+Fair dummies test (classification score), p-value: 0.8761238761238761
+experiment = 10
+Coverage 0 = 0.90625
+Coverage 1 = 0.9046875
+Length 0 = 1.4778963414634145
+Length 1 = 1.425
+Prediction Error = 0.2854938271604939
+p_val = 0.8761238761238761
+FairDummies_deep_model
+Num experiments 10 | Avg. Pred Err = 0.2586 | Avg Length 0 = 1.4226 | Avg Length 1 = 1.3864 | Avg Coverage 0 = 0.9032 | Avg Coverage 1 = 0.9040 | Avg p_val = 0.3952 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.969136
+Group 0 : Average length: 1.410494
+Group 1 : Percentage in the range (expecting 90.00): 90.586420
+Group 1 : Average length: 1.394290
+Init Loss = 0.6401357
+Final Loss = 0.45296544
+Fair dummies test (classification score), p-value: 0.9660339660339661
+experiment = 11
+Coverage 0 = 0.8996913580246914
+Coverage 1 = 0.9058641975308642
+Length 0 = 1.4104938271604939
+Length 1 = 1.3942901234567902
+Prediction Error = 0.24691358024691357
+p_val = 0.9660339660339661
+FairDummies_deep_model
+Num experiments 11 | Avg. Pred Err = 0.2575 | Avg Length 0 = 1.4215 | Avg Length 1 = 1.3872 | Avg Coverage 0 = 0.9029 | Avg Coverage 1 = 0.9042 | Avg p_val = 0.4471 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.070054
+Group 0 : Average length: 1.371824
+Group 1 : Percentage in the range (expecting 90.00): 88.708430
+Group 1 : Average length: 1.314772
+Init Loss = 0.7202886
+Final Loss = 0.45064318
+Fair dummies test (classification score), p-value: 0.1978021978021978
+experiment = 12
+Coverage 0 = 0.9107005388760585
+Coverage 1 = 0.8870843000773395
+Length 0 = 1.371824480369515
+Length 1 = 1.3147718484145399
+Prediction Error = 0.22723765432098764
+p_val = 0.1978021978021978
+FairDummies_deep_model
+Num experiments 12 | Avg. Pred Err = 0.2550 | Avg Length 0 = 1.4174 | Avg Length 1 = 1.3811 | Avg Coverage 0 = 0.9035 | Avg Coverage 1 = 0.9028 | Avg p_val = 0.4263 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.287620
+Group 0 : Average length: 1.379540
+Group 1 : Percentage in the range (expecting 90.00): 88.817377
+Group 1 : Average length: 1.359614
+Init Loss = 0.7725926
+Final Loss = 0.4598947
+Fair dummies test (classification score), p-value: 0.7732267732267732
+experiment = 13
+Coverage 0 = 0.882876204595997
+Coverage 1 = 0.8881737731295254
+Length 0 = 1.379540400296516
+Length 1 = 1.3596138374899436
+Prediction Error = 0.22685185185185186
+p_val = 0.7732267732267732
+FairDummies_deep_model
+Num experiments 13 | Avg. Pred Err = 0.2528 | Avg Length 0 = 1.4145 | Avg Length 1 = 1.3795 | Avg Coverage 0 = 0.9019 | Avg Coverage 1 = 0.9017 | Avg p_val = 0.4530 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.725869
+Group 0 : Average length: 1.377606
+Group 1 : Percentage in the range (expecting 90.00): 90.131072
+Group 1 : Average length: 1.378566
+Init Loss = 0.7206291
+Final Loss = 0.46178558
+Fair dummies test (classification score), p-value: 0.07892107892107893
+experiment = 14
+Coverage 0 = 0.8872586872586873
+Coverage 1 = 0.9013107170393215
+Length 0 = 1.3776061776061777
+Length 1 = 1.3785659213569776
+Prediction Error = 0.25848765432098764
+p_val = 0.07892107892107893
+FairDummies_deep_model
+Num experiments 14 | Avg. Pred Err = 0.2533 | Avg Length 0 = 1.4118 | Avg Length 1 = 1.3794 | Avg Coverage 0 = 0.9009 | Avg Coverage 1 = 0.9016 | Avg p_val = 0.4263 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.821290
+Group 0 : Average length: 1.488733
+Group 1 : Percentage in the range (expecting 90.00): 89.272031
+Group 1 : Average length: 1.448276
+Init Loss = 0.749748
+Final Loss = 0.43853006
+Fair dummies test (classification score), p-value: 0.8271728271728271
+experiment = 15
+Coverage 0 = 0.8982128982128982
+Coverage 1 = 0.89272030651341
+Length 0 = 1.4887334887334887
+Length 1 = 1.4482758620689655
+Prediction Error = 0.3638117283950617
+p_val = 0.8271728271728271
+FairDummies_deep_model
+Num experiments 15 | Avg. Pred Err = 0.2606 | Avg Length 0 = 1.4170 | Avg Length 1 = 1.3840 | Avg Coverage 0 = 0.9007 | Avg Coverage 1 = 0.9010 | Avg p_val = 0.4530 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.328063
+Group 0 : Average length: 1.408696
+Group 1 : Percentage in the range (expecting 90.00): 90.429540
+Group 1 : Average length: 1.394122
+Init Loss = 0.7671569
+Final Loss = 0.4563481
+Fair dummies test (classification score), p-value: 0.2787212787212787
+experiment = 16
+Coverage 0 = 0.8932806324110671
+Coverage 1 = 0.9042954031650339
+Length 0 = 1.4086956521739131
+Length 1 = 1.3941220798794274
+Prediction Error = 0.2534722222222222
+p_val = 0.2787212787212787
+FairDummies_deep_model
+Num experiments 16 | Avg. Pred Err = 0.2602 | Avg Length 0 = 1.4164 | Avg Length 1 = 1.3846 | Avg Coverage 0 = 0.9002 | Avg Coverage 1 = 0.9012 | Avg p_val = 0.4421 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.160646
+Group 0 : Average length: 1.335127
+Group 1 : Percentage in the range (expecting 90.00): 89.852827
+Group 1 : Average length: 1.320682
+Init Loss = 0.7312061
+Final Loss = 0.42757556
+Fair dummies test (classification score), p-value: 0.12387612387612387
+experiment = 17
+Coverage 0 = 0.9116064565718678
+Coverage 1 = 0.8985282726568552
+Length 0 = 1.3351268255188318
+Length 1 = 1.3206816421378775
+Prediction Error = 0.2276234567901234
+p_val = 0.12387612387612387
+FairDummies_deep_model
+Num experiments 17 | Avg. Pred Err = 0.2583 | Avg Length 0 = 1.4117 | Avg Length 1 = 1.3809 | Avg Coverage 0 = 0.9009 | Avg Coverage 1 = 0.9011 | Avg p_val = 0.4234 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 89.808429
+Group 0 : Average length: 1.352490
+Group 1 : Percentage in the range (expecting 90.00): 89.743590
+Group 1 : Average length: 1.369075
+Init Loss = 0.693083
+Final Loss = 0.4577816
+Fair dummies test (classification score), p-value: 0.6853146853146853
+experiment = 18
+Coverage 0 = 0.8980842911877395
+Coverage 1 = 0.8974358974358975
+Length 0 = 1.3524904214559388
+Length 1 = 1.369075369075369
+Prediction Error = 0.2442129629629629
+p_val = 0.6853146853146853
+FairDummies_deep_model
+Num experiments 18 | Avg. Pred Err = 0.2575 | Avg Length 0 = 1.4084 | Avg Length 1 = 1.3802 | Avg Coverage 0 = 0.9007 | Avg Coverage 1 = 0.9009 | Avg p_val = 0.4380 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 88.437500
+Group 0 : Average length: 1.334375
+Group 1 : Percentage in the range (expecting 90.00): 90.701220
+Group 1 : Average length: 1.365091
+Init Loss = 0.6867742
+Final Loss = 0.43266216
+Fair dummies test (classification score), p-value: 0.4835164835164835
+experiment = 19
+Coverage 0 = 0.884375
+Coverage 1 = 0.9070121951219512
+Length 0 = 1.334375
+Length 1 = 1.365091463414634
+Prediction Error = 0.23572530864197527
+p_val = 0.4835164835164835
+FairDummies_deep_model
+Num experiments 19 | Avg. Pred Err = 0.2563 | Avg Length 0 = 1.4045 | Avg Length 1 = 1.3794 | Avg Coverage 0 = 0.8999 | Avg Coverage 1 = 0.9012 | Avg p_val = 0.4403 | min p_val = 0.0599
+======== Done =========
+n train = 7774 p = 13
+n calibration = 2592
+n test = 2592
+Group 0 : Percentage in the range (expecting 90.00): 91.384615
+Group 0 : Average length: 1.411538
+Group 1 : Percentage in the range (expecting 90.00): 89.241486
+Group 1 : Average length: 1.330495
+Init Loss = 0.7240916
+Final Loss = 0.44070697
+Fair dummies test (classification score), p-value: 0.07992007992007992
+experiment = 20
+Coverage 0 = 0.9138461538461539
+Coverage 1 = 0.8924148606811145
+Length 0 = 1.4115384615384616
+Length 1 = 1.3304953560371517
+Prediction Error = 0.21990740740740744
+p_val = 0.07992007992007992
+FairDummies_deep_model
+Num experiments 20 | Avg. Pred Err = 0.2545 | Avg Length 0 = 1.4048 | Avg Length 1 = 1.3770 | Avg Coverage 0 = 0.9006 | Avg Coverage 1 = 0.9008 | Avg p_val = 0.4223 | min p_val = 0.0599
+======== Done =========
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/utils/multiclass.py:13: DeprecationWarning: Please use `spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.base` namespace is deprecated.
+  from scipy.sparse.base import spmatrix
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:30: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:167: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:284: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_Gram=True, verbose=0,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1101: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1127: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1362: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1602: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1738: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/utils/optimize.py:18: DeprecationWarning: Please use `line_search_wolfe2` from the `scipy.optimize` namespace, the `scipy.optimize.linesearch` namespace is deprecated.
+  from scipy.optimize.linesearch import line_search_wolfe2, line_search_wolfe1
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/utils/optimize.py:18: DeprecationWarning: Please use `line_search_wolfe1` from the `scipy.optimize` namespace, the `scipy.optimize.linesearch` namespace is deprecated.
+  from scipy.optimize.linesearch import line_search_wolfe2, line_search_wolfe1
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/decomposition/online_lda.py:29: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  EPS = np.finfo(np.float).eps
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/ensemble/gradient_boosting.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/sklearn/ensemble/gradient_boosting.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+/home/mt1/21CS60D06/anaconda3/envs/fair/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))

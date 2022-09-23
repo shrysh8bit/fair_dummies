@@ -8,7 +8,8 @@
 
 import os
 import sys
-
+# sys.path.append('../')
+sys.path.append('.')
 # print (os.getcwd() + '/others' )
 # print (os.getcwd())
 

@@ -4,10 +4,12 @@
 # https://github.com/criteo-research/continuous-fairness/tree/master/facl/independence
 
 import sys
+sys.path.append('.')
+
 import torch
 import numpy as np
 import torch.nn as nn
-from facl.independence.hgr import chi_2_cond
+from others.third_party.fairness_aware_learning.facl.independence.hgr import chi_2_cond
 from sklearn.preprocessing import StandardScaler
 from facl.independence.density_estimation.pytorch_kde import kde
 from fair_dummies.utility_functions import compute_acc
