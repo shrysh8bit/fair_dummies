@@ -96,6 +96,48 @@ class deep_reg_model(torch.nn.Module):
     def forward(self, x):
         return torch.squeeze(self.base_model(x))
 
+class compas_model(nn.Module):
+
+  def __init__(self,
+                 in_shape=1,
+                 out_shape=1):
+    super().__init__()
+    self.layer1 = nn.Linear(11,64) 
+    self.activ1 = nn.ReLU()
+    self.layer2 = nn.Linear(64, 32)
+    self.activ2 = nn.ReLU()
+    self.layer3 = nn.Linear(32,2)
+
+
+  def forward(self, x):
+    out = self.activ1(self.layer1(x))
+    out = self.activ2(self.layer2(out))
+    out = self.layer3(out)
+
+    return out
+
+
+class adult_model(nn.Module):
+
+  def __init__(self,
+                 in_shape=1,
+                 out_shape=1):
+    super().__init__()
+    self.layer1 = nn.Linear(14,64) 
+    self.activ1 = nn.ReLU()
+    self.layer2 = nn.Linear(64, 32)
+    self.activ2 = nn.ReLU()
+    self.layer3 = nn.Linear(32,2)
+
+
+  def forward(self, x):
+    out = self.activ1(self.layer1(x))
+    out = self.activ2(self.layer2(out))
+    out = self.layer3(out)
+
+    return out
+
+
 # Define deep regression model, used by the fair dummies test
 class deep_proba_model(torch.nn.Module):
     def __init__(self,

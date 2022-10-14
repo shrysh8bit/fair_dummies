@@ -7,10 +7,15 @@ import torch.optim as optim
 from sklearn.preprocessing import StandardScaler
 from torch.utils.data import TensorDataset
 from torch.utils.data import DataLoader
-import utility_functions
-# from fair_dummies import utility_functions
-from utility_functions import linear_model
-from utility_functions import deep_model, deep_reg_model
+try:
+    import fair_dummies.utility_functions as utility_functions
+    # from fair_dummies import utility_functions
+    from fair_dummies.utility_functions import linear_model
+    from fair_dummies.utility_functions import deep_model, deep_reg_model
+    from fair_dummies.utility_functions import compas_model
+    from fair_dummies.utility_functions import adult_model
+except:
+    print("--> Modules not found from root call")
 
 def covariance_diff_biased(Z, W, scale=1.0):
 
@@ -298,6 +303,10 @@ class EquiClassLearner:
             self.model = deep_model(in_shape=in_shape, out_shape=num_classes)
         elif self.model_type == "linear_model":
             self.model = linear_model(in_shape=in_shape, out_shape=num_classes)
+        elif self.model_type == "compas_model":
+            self.model = compas_model(in_shape=in_shape, out_shape=num_classes)
+        elif self.model_type == "adult_model":
+            self.model = adult_model(in_shape=in_shape, out_shape=num_classes)
         else:
             raise
 

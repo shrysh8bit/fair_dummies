@@ -2,6 +2,8 @@ import os
 import urllib
 import numpy as np
 import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import LabelEncoder
 
             
 def gen_synthetic_data(n = 6000, seed=0):
@@ -130,6 +132,24 @@ def read_crimes_data(base_path):
     
     return x, z, y
 
+
+def get_german(base_path):
+
+    all_data = pd.read_csv(base_path + 'german_processed.csv')
+    
+    protected = "statussex"
+    label = "credithistory"
+    vars_to_drop = [protected, label]
+ 
+    all_data[ all_data['credithistory'] == 0 ] = 1
+    
+    X = all_data.drop(vars_to_drop, axis=1).values
+    A = all_data[protected].values
+    Y = all_data[label].values - 1
+    
+    return X, A, Y
+
+
 def get_nursery(base_path):
     
     df = pd.read_csv(base_path + 'nursery_processed.csv')
@@ -148,21 +168,44 @@ def get_nursery(base_path):
     
     return X, A, Y
 
-def get_german(base_path):
 
-    all_data = pd.read_csv(base_path + 'german_processed.csv')
+def get_compas(base_path):
+
+    all_data = pd.read_csv(base_path + 'compas.csv')
     
-    protected = "statussex"
-    label = "credithistory"
-    vars_to_drop = [protected, label]
- 
-    all_data[ all_data['credithistory'] == 0 ] = 1
+    scaler = StandardScaler()
+    all_data[['Number_of_Priors']] = scaler.fit_transform(all_data[['Number_of_Priors']])
+    X = all_data.drop(['Two_yr_Recidivism'],axis=1).values
+    y = all_data['Two_yr_Recidivism'].values
+    z = all_data['Female'].values
     
-    X = all_data.drop(vars_to_drop, axis=1).values
-    A = all_data[protected].values
-    Y = all_data[label].values - 1
-    
-    return X, A, Y
+    return X, y, z
+
+
+def get_adult(base_path):
+
+    adult_data = pd.read_csv(base_path + 'adult.csv')
+
+    adult_data = adult_data.dropna()
+    encoder = LabelEncoder()
+    adult_data.income = adult_data.income.replace('<=50K', 0)
+    adult_data.income = adult_data.income.replace('>50K', 1)
+    adult_data['workclass']=encoder.fit_transform(adult_data['workclass'])
+    adult_data['education']=encoder.fit_transform(adult_data['education'])
+    adult_data['marital.status']=encoder.fit_transform(adult_data['marital.status'])
+    adult_data['occupation']=encoder.fit_transform(adult_data['occupation'])
+    adult_data['relationship']=encoder.fit_transform(adult_data['relationship'])
+    adult_data['race']=encoder.fit_transform(adult_data['race'])
+    adult_data['sex']=encoder.fit_transform(adult_data['sex'])
+    adult_data['native.country']=encoder.fit_transform(adult_data['native.country'])
+    #adult_data['income']=encoder.fit_transform(adult_data['income'])
+
+
+    X = adult_data.iloc[:, :-1].values
+    y = adult_data.iloc[:, [-1]].values
+    z = adult_data.iloc[:, [9]].values
+        
+    return X, y, z
             
 def get_train_test_data(base_path, dataset, seed):
     if dataset == "meps":
@@ -183,6 +226,19 @@ def get_train_test_data(base_path, dataset, seed):
         n_train = n_train - n_train%2
         n_cal = int( (Y_.shape[0]-n_train) / 2)            
 
+    elif dataset == "compas":
+        X_, A_, Y_ = get_compas(base_path)
+        n_train = int(Y_.shape[0]*0.6) #0.8
+        n_train = n_train - n_train%2
+        n_cal = int( (Y_.shape[0]-n_train) / 2) 
+
+    elif dataset == "adult":
+        X_, A_, Y_ = get_adult(base_path)
+        n_train = int(Y_.shape[0]*0.6) #0.8
+        n_train = n_train - n_train%2
+        n_cal = int( (Y_.shape[0]-n_train) / 2) 
+        A_ = np.reshape(A_, (32561,))
+        print(f"In get dataset .  A_ shape {A_.shape}")
         
     t0 = np.random.get_state()
     np.random.seed(seed)
