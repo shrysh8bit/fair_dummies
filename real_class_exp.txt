@@ -1,0 +1,21 @@
+/home/mt1/21CS60D06/anaconda3/envs/augmax18/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+dataset: adult
+In get dataset .  A_ shape (30162,)
+training samples (used to fit predictive model) = 18096 p = 14
+holdout samples (used to fit fair-dummies test statistics function) = 6033
+test samples = 6033
+Traceback (most recent call last):
+  File "real_classification_experiment.py", line 97, in <module>
+    model.fit(input_data_train, Y)
+  File "/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/fair_dummies/fair_dummies_learning.py", line 347, in fit
+    p_success, dummy = utility_functions.density_estimation(Y, orig_Z)
+  File "/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/fair_dummies/utility_functions.py", line 15, in density_estimation
+    kde_0 = KernelDensity(kernel='linear', bandwidth=bandwidth).fit(Y[A==0][:, np.newaxis])
+  File "/home/mt1/21CS60D06/anaconda3/envs/augmax18/lib/python3.8/site-packages/sklearn/neighbors/_kde.py", line 194, in fit
+    X = self._validate_data(X, order="C", dtype=DTYPE)
+  File "/home/mt1/21CS60D06/anaconda3/envs/augmax18/lib/python3.8/site-packages/sklearn/base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "/home/mt1/21CS60D06/anaconda3/envs/augmax18/lib/python3.8/site-packages/sklearn/utils/validation.py", line 893, in check_array
+    raise ValueError(
+ValueError: Found array with dim 3. KernelDensity expected <= 2.

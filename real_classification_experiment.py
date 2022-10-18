@@ -24,7 +24,7 @@ torch.manual_seed(seed)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(seed)
 
-dataset = "nursery"
+dataset = "adult"
 
 # use minibatch sgd
 batch_size = 32
@@ -56,7 +56,9 @@ epochs = 50
 cost_pred = torch.nn.CrossEntropyLoss()
 
 # base predictive model
-model_type = "deep_model"
+model_type = "adult_model"
+# model_type = "deep_model"
+# dataset = "nursery"
 
 
 
@@ -90,9 +92,14 @@ model = fair_dummies_learning.EquiClassLearner(lr=lr_loss,
                                                model_type=model_type,
                                                lambda_vec=mu_val,
                                                second_moment_scaling=second_scale,
-                                               num_classes=num_classes)
+                                               num_classes=num_classes,
+                                               save_folder = "runs/real_classification_exp")
 
 input_data_train = np.concatenate((A[:,np.newaxis],X),1)
+print(f"--> input data train l 96 dimns  {input_data_train.shape} , Y {Y.shape}")
+if(dataset == 'adult'):
+    Y = Y.reshape(18096,)
+print(f"--> input data train l 96 dimns  {input_data_train.shape} , Y {Y.shape}")
 model.fit(input_data_train, Y)
 
 

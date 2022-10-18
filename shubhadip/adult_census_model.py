@@ -34,6 +34,7 @@ class Dataset(object):
     def __init__(self):
 
         adult_data = pd.read_csv('adult.csv', na_values='?')
+        
         adult_data = adult_data.dropna()
         encoder = LabelEncoder()
         adult_data.income = adult_data.income.replace('<=50K', 0)

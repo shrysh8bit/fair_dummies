@@ -59,6 +59,11 @@ cost_pred = torch.nn.MSELoss()
 model_type = "linear_model"
 
 
+# model_type = "adult_model"
+# dataset = "adult"
+
+# model_type = "compas_model"
+# dataset = "compas"
 
 
 

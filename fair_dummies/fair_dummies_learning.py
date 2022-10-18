@@ -1,4 +1,4 @@
-
+import os
 import numpy as np
 import pandas as pd
 import torch
@@ -291,7 +291,8 @@ class EquiClassLearner:
                  model_type,
                  lambda_vec,
                  second_moment_scaling,
-                 num_classes):
+                 num_classes,
+                 save_folder):
 
         self.lr = lr
         self.batch_size = batch_size
@@ -332,6 +333,8 @@ class EquiClassLearner:
         self.scale_df = lambda df, scaler: pd.DataFrame(scaler.transform(df),
                                                         columns=df.columns,
                                                         index=df.index)
+
+        self.save_folder = save_folder
 
 
     def fit(self,X,Y):
@@ -395,6 +398,11 @@ class EquiClassLearner:
                                                     self.loss_steps,
                                                     self.num_classes)
 
+        if not os.path.exists(self.save_folder):
+            os.mkdir(self.save_folder)
+        torch.save(self.model.state_dict(), os.path.join(self.save_folder, 'best_model.pth'))
+        
+
     def predict(self,X):
         X = X[:,1:]
         X_test = pd.DataFrame(data=X)
@@ -440,6 +448,10 @@ class EquiRegLearner:
             self.model = deep_reg_model(in_shape=in_shape, out_shape=out_shape)
         elif self.model_type == "linear_model":
             self.model = linear_model(in_shape=in_shape, out_shape=out_shape)
+        elif self.model_type == "compas_model":
+            self.model = compas_model(in_shape=in_shape, out_shape=out_shape)
+        elif self.model_type == "adult_model":
+            self.model = adult_model(in_shape=in_shape, out_shape=out_shape)
         else:
             raise
 

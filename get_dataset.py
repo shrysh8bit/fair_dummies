@@ -184,13 +184,13 @@ def get_compas(base_path):
 
 def get_adult(base_path):
 
-    adult_data = pd.read_csv(base_path + 'adult.csv')
+    adult_data = pd.read_csv(base_path + 'adult.csv', na_values='?')
 
     adult_data = adult_data.dropna()
     encoder = LabelEncoder()
     adult_data.income = adult_data.income.replace('<=50K', 0)
     adult_data.income = adult_data.income.replace('>50K', 1)
-    adult_data['workclass']=encoder.fit_transform(adult_data['workclass'])
+    # adult_data['workclass']=encoder.fit_transform(adult_data['workclass'])
     adult_data['education']=encoder.fit_transform(adult_data['education'])
     adult_data['marital.status']=encoder.fit_transform(adult_data['marital.status'])
     adult_data['occupation']=encoder.fit_transform(adult_data['occupation'])
@@ -237,7 +237,7 @@ def get_train_test_data(base_path, dataset, seed):
         n_train = int(Y_.shape[0]*0.6) #0.8
         n_train = n_train - n_train%2
         n_cal = int( (Y_.shape[0]-n_train) / 2) 
-        A_ = np.reshape(A_, (32561,))
+        A_ = np.reshape(A_, (30162,))
         print(f"In get dataset .  A_ shape {A_.shape}")
         
     t0 = np.random.get_state()

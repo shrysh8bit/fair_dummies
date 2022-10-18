@@ -22,10 +22,10 @@ plt.rc('text', usetex=True)
 
 mu_array = list(np.linspace(0,0.99,100)[::5])
 # Linear
-filename = "/Users/romano/CJ_get_tmp/6f9771d7f10b5f9f67e815d4a0ae469533c8751a/results/results.csv"
+filename = "/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/results/results.csv"
 
 # Deep
-filename = "/Users/romano/CJ_get_tmp/4e0c952eeda7c4cc861592c0b43e7848cc9cb3d2/results/results.csv"
+filename = "/home/mt1/21CS60D06/MTP/wkg_code/fair_dummies/results/results.csv"
 
 results = pd.read_csv(filename)
 results = results.loc[results['mu_val'].isin(mu_array)]
