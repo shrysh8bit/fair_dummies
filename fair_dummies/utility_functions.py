@@ -12,8 +12,10 @@ def density_estimation(Y, A, Y_test=[]):
 
     bandwidth = np.sqrt( max(np.median(np.abs(Y)), 0.01))
     print(f"-->Util fn fit fn l 16 dimns A {A.shape} , Y {Y.shape}")
-    print(f"{Y.shape[0]}")
-    Y = Y.reshape(Y.shape[0],)
+    if(len(Y.shape) > 1 and Y.shape[1] == 1):
+        Y = Y.reshape(Y.shape[0],)
+
+    print(f"{Y.shape}")
 
     kde_0 = KernelDensity(kernel='linear', bandwidth=bandwidth).fit(Y[A==0][:, np.newaxis])
     kde_1 = KernelDensity(kernel='linear', bandwidth=bandwidth).fit(Y[A==1][:, np.newaxis])

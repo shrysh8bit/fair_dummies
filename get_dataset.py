@@ -190,7 +190,7 @@ def get_adult(base_path):
     encoder = LabelEncoder()
     adult_data.income = adult_data.income.replace('<=50K', 0)
     adult_data.income = adult_data.income.replace('>50K', 1)
-    # adult_data['workclass']=encoder.fit_transform(adult_data['workclass'])
+    adult_data['workclass']=encoder.fit_transform(adult_data['workclass'])
     adult_data['education']=encoder.fit_transform(adult_data['education'])
     adult_data['marital.status']=encoder.fit_transform(adult_data['marital.status'])
     adult_data['occupation']=encoder.fit_transform(adult_data['occupation'])

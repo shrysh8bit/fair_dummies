@@ -60,6 +60,8 @@ model_type = "adult_model"
 # model_type = "deep_model"
 # dataset = "nursery"
 
+# model_type = "compas_model"
+# dataset = "compas"
 
 
 
